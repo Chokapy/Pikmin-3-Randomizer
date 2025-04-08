@@ -6,3 +6,5 @@ Modif : 08.04.2025
 Version : 2.0
 """
 import randomizer_frontend as frnd
+
+frnd.init_window()
