@@ -15,7 +15,9 @@ from tkinter import *
 def init_window():
     window.mainloop()
 
-
+#variable
+normal_font = 'TkDefaultFont 12'
+button_font = 'TkDefaultFont 30'
 #--------------------main window--------------------
 window = Tk()
 window.title("Pikmin 3 Randomizer")
@@ -46,18 +48,19 @@ frm_left.pack(side=LEFT, anchor="n", pady=10, padx=10)
 text_left = [
         "Randomize enemies",
         "Randomize fruits",
+        "Randomize plants",
         "Randomize onions",
         "No limit mode",
         "Ultra spicy mode"
         ]
 
-frame_left = [None, None, None, None, None]
+frame_left = [None, None, None, None, None, None]
 
-checkbox_left = [None, None, None, None, None]
+checkbox_left = [None, None, None, None, None, None]
 
-var_left = [IntVar(), IntVar(), IntVar(), IntVar(), IntVar()]
+var_left = [IntVar(), IntVar(), IntVar(), IntVar(), IntVar(), IntVar()]
 
-label_left = [None, None, None, None, None]
+label_left = [None, None, None, None, None, None]
 
 for i in range(len(text_left)):
     frame_left[i] = Frame(frm_left, pady=5, padx=5)
@@ -66,11 +69,27 @@ for i in range(len(text_left)):
     checkbox_left[i] = Checkbutton(frame_left[i], variable=var_left[i], onvalue=1, offvalue=0)
     checkbox_left[i].pack(side=LEFT)
 
-    label_left[i] = Label(frame_left[i], text=text_left[i], font='TkDefaultFont 16')
+    label_left[i] = Label(frame_left[i], text=text_left[i], font=normal_font)
     label_left[i].pack()
 
 #--------------------right side--------------------
 
-frame_right = [None, None, None]
+frm_right = LabelFrame(window)
+frm_right.pack(side=RIGHT, anchor="n", pady=10, padx=10)
+
+frame_right = [None, None, None, None]
 
 button_right = [None, None, None]
+
+for i in range(len(frame_right)):
+    frame_right[i] = Frame(frm_right, pady=5, padx=5)
+    frame_right[i].pack(anchor="e")
+
+button_right[0] = Button(frame_right[0], text="🛈", font=button_font, height=0, width=2)
+button_right[0].pack(padx=(5,0), side=RIGHT)
+
+button_right[0] = Button(frame_right[0], text="📁", font=button_font, height=0, width=2)
+button_right[0].pack(padx=(5,0), side=RIGHT)
+
+button_right[0] = Button(frame_right[0], text="🌤", font=button_font, height=0, width=2)
+button_right[0].pack(padx=(5,0), side=RIGHT)
