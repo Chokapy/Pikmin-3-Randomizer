@@ -17,7 +17,7 @@ def init_window():
 
 #variable
 normal_font = 'TkDefaultFont 12'
-button_font = 'TkDefaultFont 30'
+button_font = 'TkDefaultFont 20'
 #--------------------main window--------------------
 window = Tk()
 window.title("Pikmin 3 Randomizer")
@@ -28,7 +28,7 @@ screen_height = window.winfo_screenheight()
 
 #size of the window
 sizex = 500
-sizey = 300
+sizey = 350
 
 #finding the middle of the screen
 posx = screen_width // 2 - (sizex // 2)
@@ -38,11 +38,11 @@ posy = screen_height // 2 - (sizey // 2)
 window.geometry(f"{sizex}x{sizey}+{posx}+{posy}")
 
 #make the window not resizable
-window.resizable(False, False)
+#window.resizable(False, False)
 
 #--------------------left side--------------------
 
-frm_left = Frame(window)
+frm_left = LabelFrame(window)
 frm_left.pack(side=LEFT, anchor="n", pady=10, padx=10)
 
 text_left = [
@@ -63,7 +63,7 @@ var_left = [IntVar(), IntVar(), IntVar(), IntVar(), IntVar(), IntVar()]
 label_left = [None, None, None, None, None, None]
 
 for i in range(len(text_left)):
-    frame_left[i] = Frame(frm_left, pady=5, padx=5)
+    frame_left[i] = LabelFrame(frm_left, pady=5, padx=5)
     frame_left[i].pack(anchor="w")
 
     checkbox_left[i] = Checkbutton(frame_left[i], variable=var_left[i], onvalue=1, offvalue=0)
@@ -82,14 +82,48 @@ frame_right = [None, None, None, None]
 button_right = [None, None, None]
 
 for i in range(len(frame_right)):
-    frame_right[i] = Frame(frm_right, pady=5, padx=5)
-    frame_right[i].pack(anchor="e")
+    frame_right[i] = LabelFrame(frm_right, pady=5, padx=5)
+    frame_right[i].pack(anchor="w", fill="x")
 
-button_right[0] = Button(frame_right[0], text="🛈", font=button_font, height=0, width=2)
+button_right[0] = Button(frame_right[0], text="ℹ", font=button_font, width=3)
 button_right[0].pack(padx=(5,0), side=RIGHT)
 
-button_right[0] = Button(frame_right[0], text="📁", font=button_font, height=0, width=2)
+button_right[0] = Button(frame_right[0], text="📁", font=button_font, width=3)
 button_right[0].pack(padx=(5,0), side=RIGHT)
 
-button_right[0] = Button(frame_right[0], text="🌤", font=button_font, height=0, width=2)
+button_right[0] = Button(frame_right[0], text="🌤", font=button_font, width=3)
 button_right[0].pack(padx=(5,0), side=RIGHT)
+
+lbl_seed = Label(frame_right[1], text="Seed", font=normal_font)
+lbl_seed.pack(padx=5, side=LEFT)
+
+ent_seed = Entry(frame_right[1], font=normal_font)
+ent_seed.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
+
+var_gennum = IntVar()
+
+ckbx_gennum = Checkbutton(frame_right[2], variable=var_gennum, onvalue=1, offvalue=0)
+ckbx_gennum.pack(side=LEFT)
+
+lbl_gennum = Label(frame_right[2], text="Max gen num", font=normal_font)
+lbl_gennum.pack(side=LEFT, padx=(5,0))
+
+ent_gennum = Entry(frame_right[2], font=normal_font)
+ent_gennum.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
+
+lbl_stonion = Label(frame_right[3], text="First onion", font=normal_font)
+lbl_stonion.pack(side=LEFT, padx=(5,0))
+
+ent_stonion = Entry(frame_right[3], font=normal_font)
+ent_stonion.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
+
+#--------------------bottom button--------------------
+
+frm_bottom = LabelFrame(window)
+frm_bottom.pack(pady=10, padx=10)
+
+btn_randomize = Button(frm_bottom, text="RANDOMIZE", font=button_font)
+btn_randomize.pack(side=LEFT)
+
+btn_pack = Button(frm_bottom, text="PACK", font=button_font)
+btn_pack.pack(side=RIGHT)
