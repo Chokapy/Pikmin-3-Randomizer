@@ -2,9 +2,14 @@
 Program name : randomizer_backend.py
 Author : Chokapi
 Date : 08.04.2025
-Modif : 08.04.2025
+Modif : 10.04.2025
 Version : 2.0
 """
+#import
+import os
+
+#path
+mod_file = "mod-file"
 
 #color pallet
 dark_mode = {
@@ -18,3 +23,6 @@ light_mode = {
     "widget" : "#D9CCDD",
     "background" : "#F0F0F0"
 }
+
+def open_mod_folder():
+    os.startfile(mod_file)
