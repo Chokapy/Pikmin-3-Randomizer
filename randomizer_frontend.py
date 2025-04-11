@@ -2,7 +2,7 @@
 Program name : randomizer_frontend.py
 Author : Chokapi
 Date : 08.04.2025
-Modif : 10.04.2025
+Modif : 11.04.2025
 Version : 2.0
 """
 #import of the backend
@@ -25,13 +25,14 @@ def init_window():
 
 
 def randomize():
-    for i in range(len(var_left)):
-        print(var_left[i].get())
+    if var_left[0].get():
+        bknd.randomize_file(bknd.gen_file, bknd.enemies_to_replace, bknd.enemies_list)
 
-    print(ent_seed.get())
-    if var_gennum.get():
-        print(ent_gennum.get())
-    print(ent_stonion.get())
+    if var_left[1].get():
+        bknd.randomize_file(bknd.gen_file, bknd.fruits_to_replace, bknd.fruits_list)
+
+    if var_left[2].get():
+        bknd.randomize_file(bknd.gen_file, bknd.plants_to_replace, bknd.plants_list)
 
 
 def darklight_mode(background_list, widget_list):
