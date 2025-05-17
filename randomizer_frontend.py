@@ -26,13 +26,13 @@ def init_window():
 
 def randomize():
     if var_left[0].get():
-        bknd.randomize_file(bknd.gen_file, bknd.enemies_to_replace, bknd.enemies_list)
+        bknd.randomize_all(bknd.gen_folder, bknd.enemies_to_replace, bknd.enemies_list)
 
     if var_left[1].get():
-        bknd.randomize_file(bknd.gen_file, bknd.fruits_to_replace, bknd.fruits_list)
+        bknd.randomize_all(bknd.gen_folder, bknd.fruits_to_replace, bknd.fruits_list)
 
     if var_left[2].get():
-        bknd.randomize_file(bknd.gen_file, bknd.plants_to_replace, bknd.plants_list)
+        bknd.randomize_all(bknd.gen_folder, bknd.plants_to_replace, bknd.plants_list)
 
 
 def darklight_mode(background_list, widget_list):
@@ -155,8 +155,8 @@ text_left = [
         "Randomize fruits",
         "Randomize plants",
         "Randomize onions",
-        "No limit mode",
-        "Hard mode"
+        "Open progression",
+        "True Spice"
         ]
 
 frame_left = [None, None, None, None, None, None]
@@ -186,7 +186,7 @@ frm_right = Frame(frm_option, bg=bknd.dark_mode["background"])
 frm_right.pack(side=RIGHT, anchor="n", pady=10, padx=10)
 background_element.append(frm_right)
 
-frame_right = [None, None, None, None]
+frame_right = [None, None, None, None, None]
 background_element.append(frame_right)
 
 button_right = [None, None, None]
@@ -205,33 +205,49 @@ button_right[1].pack(padx=(5,0), side=RIGHT)
 button_right[2] = Button(frame_right[0], text="🌤", font=button_font, width=3, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command=lambda: darklight_mode(background_element, widget_element))
 button_right[2].pack(padx=(5,0), side=RIGHT)
 
-lbl_seed = Label(frame_right[1], text="Seed", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-lbl_seed.pack(padx=5, side=LEFT)
-background_element.append(lbl_seed)
+var_chaos = IntVar()
 
-ent_seed = Entry(frame_right[1], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
-ent_seed.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
-widget_element.append(ent_seed)
+ckbx_chaos = Checkbutton(frame_right[1], variable=var_chaos, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
+ckbx_chaos.pack(side=LEFT)
+background_element.append(ckbx_chaos)
+
+lbl_chaos = Label(frame_right[1], text="Chaos Randomizer", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
+lbl_chaos.pack(side=LEFT, padx=(5,0))
+background_element.append(lbl_chaos)
+
+var_iron = IntVar()
+
+ckbx_iron = Checkbutton(frame_right[2], variable=var_iron, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
+ckbx_iron.pack(side=LEFT)
+background_element.append(ckbx_iron)
+
+lbl_iron = Label(frame_right[2], text="Iron-min Challenge", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
+lbl_iron.pack(padx=5, side=LEFT)
+background_element.append(lbl_iron)
+
+ent_iron = Entry(frame_right[2], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
+ent_iron.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
+widget_element.append(ent_iron)
 
 var_gennum = IntVar()
 
-ckbx_gennum = Checkbutton(frame_right[2], variable=var_gennum, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
+ckbx_gennum = Checkbutton(frame_right[3], variable=var_gennum, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
 ckbx_gennum.pack(side=LEFT)
 background_element.append(ckbx_gennum)
 
-lbl_gennum = Label(frame_right[2], text="Max gen num", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
+lbl_gennum = Label(frame_right[3], text="Max gen num", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
 lbl_gennum.pack(side=LEFT, padx=(5,0))
 background_element.append(lbl_gennum)
 
-ent_gennum = Entry(frame_right[2], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
+ent_gennum = Entry(frame_right[3], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
 ent_gennum.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
 widget_element.append(ent_gennum)
 
-lbl_stonion = Label(frame_right[3], text="First onion", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
+lbl_stonion = Label(frame_right[4], text="First onion", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
 lbl_stonion.pack(side=LEFT, padx=(5,0))
 background_element.append(lbl_stonion)
 
-ent_stonion = Entry(frame_right[3], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
+ent_stonion = Entry(frame_right[4], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
 ent_stonion.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
 widget_element.append(ent_stonion)
 

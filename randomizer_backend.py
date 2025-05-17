@@ -10,8 +10,8 @@ import os
 import random
 
 #path
-mod_file = "mod-file"
-gen_file = "mod-file/Pikmin3randomizer/Romfs/CMCmn/generator/mapB/plant.txt"
+mod_folder = "mod-file"
+gen_folder = "mod-file/Pikmin3randomizer/Romfs/CMCmn/generator"
 
 #-----object list-----
 #enemies
@@ -57,7 +57,7 @@ light_mode = {
 
 
 def open_mod_folder():
-    os.startfile(mod_file)
+    os.startfile(mod_folder)
 
 
 def randomize_file(path, replace, object_list):
@@ -84,3 +84,13 @@ def randomize_file(path, replace, object_list):
         print(f"Error reading {path}: {e}")
     except Exception as e:
         print(f"An error occurred with file {path}: {e}")
+
+
+def randomize_all(generator_folder, replace, object_list):
+    for path, subdirs, files in os.walk(generator_folder):
+        for name in files:
+            #check if text file
+            if name.endswith('.txt'):
+                file_path = os.path.join(path, name)
+                #randomize the file
+                randomize_file(file_path, replace, object_list)
