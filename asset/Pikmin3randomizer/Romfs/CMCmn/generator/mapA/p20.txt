@@ -1,0 +1,5102 @@
+{
+	"Player"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-560.00000000 -60.00000000 5690.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 30.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mColor"
+			8
+		}
+		{
+			"mProgressMin"
+			20
+		}
+		{
+			"mProgressMax"
+			20
+		}
+		{
+			"mFormationPlayer"
+			-1
+		}
+		{
+			"mIsSleep"
+			0
+		}
+		{
+			"mIsMission2POnly"
+			0
+		}
+	}
+	"no-spline"
+	"Pikmin"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-300.00000000 -43.17771912 6250.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 190.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			3
+		}
+		{
+			"mLeaf"
+			0
+		}
+		{
+			"mTeamId"
+			-1
+		}
+		{
+			"mNoInvokeAI"
+			0
+		}
+		{
+			"mTryFormation"
+			0
+		}
+		{
+			"mWild"
+			0
+		}
+		{
+			"mTutoAPluck"
+			0
+		}
+		{
+			"mTutoAPluckStick"
+			0
+		}
+		{
+			"mFormationPlayer"
+			-1
+		}
+	}
+	"no-spline"
+	"Pikmin"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-630.00000000 -53.00000000 7320.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 180.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			3
+		}
+		{
+			"mLeaf"
+			0
+		}
+		{
+			"mTeamId"
+			-1
+		}
+		{
+			"mNoInvokeAI"
+			0
+		}
+		{
+			"mTryFormation"
+			0
+		}
+		{
+			"mWild"
+			0
+		}
+		{
+			"mTutoAPluck"
+			1
+		}
+		{
+			"mTutoAPluckStick"
+			0
+		}
+		{
+			"mFormationPlayer"
+			-1
+		}
+	}
+	"no-spline"
+	"Pikmin"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-660.00000000 -53.00000000 7300.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 150.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			3
+		}
+		{
+			"mLeaf"
+			0
+		}
+		{
+			"mTeamId"
+			-1
+		}
+		{
+			"mNoInvokeAI"
+			0
+		}
+		{
+			"mTryFormation"
+			0
+		}
+		{
+			"mWild"
+			0
+		}
+		{
+			"mTutoAPluck"
+			0
+		}
+		{
+			"mTutoAPluckStick"
+			1
+		}
+		{
+			"mFormationPlayer"
+			-1
+		}
+	}
+	"no-spline"
+	"Pikmin"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-1013.00000000 -21.57650757 6815.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 64.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			3
+		}
+		{
+			"mLeaf"
+			0
+		}
+		{
+			"mTeamId"
+			-1
+		}
+		{
+			"mNoInvokeAI"
+			1
+		}
+		{
+			"mTryFormation"
+			0
+		}
+		{
+			"mWild"
+			1
+		}
+		{
+			"mTutoAPluck"
+			0
+		}
+		{
+			"mTutoAPluckStick"
+			0
+		}
+		{
+			"mFormationPlayer"
+			-1
+		}
+	}
+	"no-spline"
+	"Onyon"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-720.00000000 100.00000000 7600.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 165.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mNewColor"
+			1
+		}
+		{
+			"mIsFirst"
+			1
+		}
+		{
+			"mIsFirstAddPikmin"
+			0
+		}
+		{
+			"mTeamId"
+			-1
+		}
+		{
+			"mDemoIndex"
+			"a07"
+		}
+		{
+			"mSurvivePos"
+			-620.00000000 -50.00000000 7280.00000000
+		}
+		{
+			"mSurviveRadius"
+			300.00000000
+		}
+		{
+			"mSurviveHeight"
+			30.00000000
+		}
+		{
+			"mSurviveDepth"
+			30.00000000
+		}
+	}
+	"no-spline"
+	"Bridge20A"
+	"0007"
+	"A" "nendoA" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-210.00000000 -50.00000000 7080.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mDemoIndex"
+			"a09"
+		}
+		{
+			"mDead"
+			0
+		}
+		{
+			"mWorkRatio"
+			0.00000000
+		}
+		{
+			"mInitNum"
+			26
+		}
+		{
+			"mEndPos"
+			-10.00000000 -50.00000000 7080.00000000
+		}
+		{
+			"mBase"
+			1
+		}
+		{
+			"mMapMaterialName"
+			2
+			"A_grdA"
+		}
+		{
+			"mStopperB"
+			0
+		}
+		{
+			"mSmallStopper"
+			0
+		}
+		{
+			"mThrowThrough"
+			1
+		}
+	}
+	"no-spline"
+	"NendoStation20A"
+	"0007"
+	"nendoA" "A" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-815.00000000 -53.00000000 6910.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 64.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mNendoNum"
+			3
+		}
+		{
+			"mSaveNum2"
+			-1
+		}
+		{
+			"mWorkRatio"
+			0.00000000
+		}
+		{
+			"mColor"
+			0
+		}
+	}
+	"no-spline"
+	"NendoStation20A"
+	"0007"
+	"nendoA" "A" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-765.00000000 -53.00000000 6990.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 63.99999619 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mNendoNum"
+			1
+		}
+		{
+			"mSaveNum2"
+			-1
+		}
+		{
+			"mWorkRatio"
+			0.00000000
+		}
+		{
+			"mColor"
+			0
+		}
+	}
+	"no-spline"
+	"Drc"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			230.00000000 -50.00000000 7080.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 300.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			0 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+	}
+	"no-spline"
+	"XBox"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			630.00000000 -50.00000000 7110.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mNeedPower"
+			20
+		}
+		{
+			"mPathNodeOff"
+			""
+		}
+		{
+			"mPathNodeOn"
+			"XBoxRoom4"
+		}
+		{
+			"mFall"
+			0
+		}
+		{
+			"mWorkRatio"
+			0.00000000
+		}
+		{
+			"mDemoIndex"
+			"a12"
+		}
+		{
+			"mStopper"
+			1
+		}
+		{
+			"mToFlickPos"
+			0.00000000 0.00000000 0.00000000
+		}
+	}
+	"spline"
+	3
+	630.00000000 -50.00000000 7110.00000000
+	820.00000000 -50.00000000 7110.00000000
+	1250.00000000 -50.00000000 7110.00000000
+	620.0 0
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-400.00000000 -40.00000000 6220.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 250.00000000 30.00000000 170.00000000
+		}
+		{
+			"mDemoName"
+			"a01"
+		}
+		{
+			"mSubPos"
+			-400.00000000 -40.00000000 6220.00000000
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			1
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-350.00000000 -50.00000000 6600.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 340.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBaumkuchen" 0 200.00000000 300.00000000 30.00000000 150.00000000
+		}
+		{
+			"mDemoName"
+			"a02"
+		}
+		{
+			"mSubPos"
+			-350.00000000 -70.00000000 6600.00000000
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			1
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-120.00000000 -20.00000000 7080.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 110.00000000 30.00000000 80.00000000
+		}
+		{
+			"mDemoName"
+			"a05"
+		}
+		{
+			"mSubPos"
+			230.00000000 -50.00000000 7080.00000000
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			1
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			40.00000000 -40.00000000 7080.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 100.00000000 30.00000000 50.00000000
+		}
+		{
+			"mDemoName"
+			"a06"
+		}
+		{
+			"mSubPos"
+			40.00000000 -40.00000000 7080.00000000
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			1
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"Pelplant1"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			500.00000000 -50.00000000 6900.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 300.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			5
+		}
+		{
+			"mBirthState"
+			2
+		}
+		{
+			"mDemoBloom"
+			0
+		}
+		{
+			"mDemoBloomTime"
+			-1
+		}
+		{
+			"mRebirthCounter2"
+			0
+		}
+	}
+	"no-spline"
+	"Pelplant1"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			410.00000000 -50.00000000 7280.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 210.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			5
+		}
+		{
+			"mBirthState"
+			2
+		}
+		{
+			"mDemoBloom"
+			0
+		}
+		{
+			"mDemoBloomTime"
+			-1
+		}
+		{
+			"mRebirthCounter2"
+			0
+		}
+	}
+	"no-spline"
+	"Pelplant1"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			350.00000000 -50.00000000 7300.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 180.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			5
+		}
+		{
+			"mBirthState"
+			2
+		}
+		{
+			"mDemoBloom"
+			0
+		}
+		{
+			"mDemoBloomTime"
+			-1
+		}
+		{
+			"mRebirthCounter2"
+			0
+		}
+	}
+	"no-spline"
+	"Pelplant1"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			380.00000000 -50.00000000 6430.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 35.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			5
+		}
+		{
+			"mBirthState"
+			2
+		}
+		{
+			"mDemoBloom"
+			0
+		}
+		{
+			"mDemoBloomTime"
+			-1
+		}
+		{
+			"mRebirthCounter2"
+			0
+		}
+	}
+	"no-spline"
+	"Pelplant5"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			550.00000000 11.76562500 6270.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mColor"
+			5
+		}
+		{
+			"mBirthState"
+			2
+		}
+		{
+			"mDemoBloom"
+			0
+		}
+		{
+			"mDemoBloomTime"
+			-1
+		}
+		{
+			"mRebirthCounter2"
+			0
+		}
+	}
+	"no-spline"
+	"UjinkoA"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			500.00000000 -50.00000000 6700.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mTerritoryRadius"
+			150.00000000
+		}
+	}
+	"no-spline"
+	"UjinkoA"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			485.00000000 -50.00000000 6630.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			2 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			3
+		}
+		{
+			"mEmitRadius"
+			60.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mTerritoryRadius"
+			120.00000000
+		}
+	}
+	"no-spline"
+	"OrimaMemo"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			820.00000000 -50.00000000 7110.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mMemoID"
+			"P000"
+		}
+		{
+			"mDisableCollision"
+			1
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-288.00000000 -75.00000000 6460.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 182.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBaumkuchen" 0 80.00000000 110.00000000 20.00000000 120.00000000
+		}
+		{
+			"mDemoName"
+			"Kao100"
+		}
+		{
+			"mSubPos"
+			-293.23492432 -39.99999619 6310.09130859
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-591.64099121 -53.00000000 7189.49218750
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 345.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBaumkuchen" 0 10.00000000 30.00000000 30.00000000 360.00000000
+		}
+		{
+			"mDemoName"
+			"Kao101"
+		}
+		{
+			"mSubPos"
+			-591.64099121 -49.53906250 7189.49218750
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			380.00000000 -50.00000000 7300.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 150.00000000
+		}
+		{
+			"mDemoName"
+			"Kao102"
+		}
+		{
+			"mSubPos"
+			380.00000000 -50.00000000 7300.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"Pelplant1"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			500.00000000 -50.00000000 6900.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 150.00000000
+		}
+		{
+			"mDemoName"
+			"Kao102"
+		}
+		{
+			"mSubPos"
+			500.00000000 -50.00000000 6900.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"Pelplant1"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			380.00000000 -50.00000000 6430.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 150.00000000
+		}
+		{
+			"mDemoName"
+			"Kao102"
+		}
+		{
+			"mSubPos"
+			380.00000000 -50.00000000 6430.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"Pelplant1"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-100.00000000 -90.00000000 7080.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			21 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 320.00000000 30.00000000 100.00000000
+		}
+		{
+			"mDemoName"
+			"Kao103"
+		}
+		{
+			"mSubPos"
+			230.00000000 -50.00000000 7080.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-815.00000000 -53.00000000 6910.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 200.00000000
+		}
+		{
+			"mDemoName"
+			"Kao104"
+		}
+		{
+			"mSubPos"
+			-815.00000000 -53.00000000 6910.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"NendoStation20A"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			500.00000000 -50.00000000 6700.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 150.00000000
+		}
+		{
+			"mDemoName"
+			"Kao105"
+		}
+		{
+			"mSubPos"
+			500.00000000 -50.00000000 6700.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"UjinkoA"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			550.00000000 11.76562500 6270.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 180.00000000
+		}
+		{
+			"mDemoName"
+			"Kao106"
+		}
+		{
+			"mSubPos"
+			550.00000000 11.76562500 6270.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"Pelplant5"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			680.00000000 -50.00000000 7110.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cCylinder" 0 220.00000000 50.00000000
+		}
+		{
+			"mDemoName"
+			"Kao107"
+		}
+		{
+			"mSubPos"
+			630.00000000 -50.00000000 7110.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"XBox"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			1389.47326660 -50.00000000 6670.82910156
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 300.00000000
+		}
+		{
+			"mDemoName"
+			"Kao108"
+		}
+		{
+			"mSubPos"
+			1539.47326660 -50.00000000 6525.82910156
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5485.00000000 400.00000000 6100.00000000
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 200.00000000 50.00000000 200.00000000
+		}
+		{
+			"mDemoName"
+			"Kao109"
+		}
+		{
+			"mSubPos"
+			5485.00000000 400.00000000 5750.00000000
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			0
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			4924.77978516 400.00781250 7130.57031250
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 20.02999306 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cBox" 0 50.00000000 200.00000000 200.00000000
+		}
+		{
+			"mDemoName"
+			"Kao124"
+		}
+		{
+			"mSubPos"
+			5183.78710938 400.00781250 7117.69921875
+		}
+		{
+			"mType"
+			1
+		}
+		{
+			"mCID"
+			"Mush"
+		}
+		{
+			"mLockon"
+			0
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			1
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"DemoArea"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5435.41015625 400.00000000 6579.83251953
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 350.75189209 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			30 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mBound"
+			1 "cSphere" 0 250.00000000
+		}
+		{
+			"mDemoName"
+			"a13"
+		}
+		{
+			"mSubPos"
+			5499.81494141 400.00000000 6369.49316406
+		}
+		{
+			"mType"
+			0
+		}
+		{
+			"mCID"
+			"0"
+		}
+		{
+			"mLockon"
+			1
+		}
+		{
+			"mRemoveSameId"
+			1
+		}
+		{
+			"mNotice"
+			0
+		}
+		{
+			"mActiveProgress"
+			-1
+		}
+		{
+			"mEnableIfE16IsOff"
+			0
+		}
+		{
+			"mEnableIfE01IsOff"
+			0
+		}
+		{
+			"mEnableIfPuller"
+			0
+		}
+		{
+			"mIgnoreKaoFlag"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			1092.80932617 -50.00000000 7069.28710938
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			1434.14233398 -50.00000000 6585.25292969
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			4585.68554688 400.00000000 7246.31738281
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5035.31347656 400.00000000 7086.34277344
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5502.60400391 400.00000000 6306.27636719
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			678.89916992 -50.00000000 7106.05615234
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			1724.08422852 -50.00000000 6340.20800781
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			4234.54199219 550.73437500 7325.71826172
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5314.47656250 404.42968750 6704.38818359
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5476.73974609 622.03125000 5801.19140625
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 359.99996948 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			303.69689941 40.00000000 293.11938477
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			540.08813477 203.57812500 590.74694824
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			631.76885986 -2.72656250 1134.16796875
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			755.26965332 68.74218750 1711.10278320
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"Mush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5120.78271484 401.56250000 6820.02148438
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Mush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5183.39501953 400.00000000 7117.83740234
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5389.68115234 400.77343750 6918.52783203
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5394.46923828 400.59375000 6969.67138672
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.20000005
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5335.84277344 400.50000000 7000.51562500
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			0.80000001
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5183.39501953 400.03125000 7057.83740234
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5133.39501953 400.00000000 7147.83740234
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.20000005
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5140.24414063 400.64843750 6892.44433594
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 90.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5079.04003906 400.10156250 6870.82470703
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			0.80000001
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5273.00683594 402.60937500 6745.80224609
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 197.78640747 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.00000000
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5211.72753906 402.77343750 6730.56396484
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			1.20000005
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"Komush"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5204.70556641 402.01562500 6802.63232422
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 270.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mScale"
+			0.80000001
+		}
+		{
+			"mPathOff"
+			0
+		}
+		{
+			"mKaoMessage"
+			0
+		}
+		{
+			"mLifeRatio"
+			1.00000000
+		}
+	}
+	"no-spline"
+	"ClearMask"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			1243.11010742 -50.00000000 6837.40527344
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mMapEDemo"
+			0
+		}
+	}
+	"no-spline"
+	"Stopper"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-560.41210937 -53.00000000 7095.92578125
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 337.88140869 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mWidth"
+			300.00000000
+		}
+		{
+			"mHeight"
+			300.00000000
+		}
+		{
+			"mOfs"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mDisableDemoIdx"
+			""
+		}
+		{
+			"mDisableProgress"
+			30
+		}
+		{
+			"mMinigameLimited"
+			1
+		}
+	}
+	"no-spline"
+	"Stopper"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-800.43432617 -53.00000000 7269.64990234
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 55.96501160 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mWidth"
+			600.00000000
+		}
+		{
+			"mHeight"
+			300.00000000
+		}
+		{
+			"mOfs"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mDisableDemoIdx"
+			""
+		}
+		{
+			"mDisableProgress"
+			30
+		}
+		{
+			"mMinigameLimited"
+			1
+		}
+	}
+	"no-spline"
+	"Stopper"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			-439.68148804 -53.00000000 7372.48046875
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 277.66867065 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mWidth"
+			600.00000000
+		}
+		{
+			"mHeight"
+			300.00000000
+		}
+		{
+			"mOfs"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mDisableDemoIdx"
+			""
+		}
+		{
+			"mDisableProgress"
+			30
+		}
+		{
+			"mMinigameLimited"
+			1
+		}
+	}
+	"no-spline"
+	"Gate"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5503.57861328 400.00000000 6369.74951172
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mMaxLife"
+			5000.00000000
+		}
+		{
+			"mDemoIndex"
+			""
+		}
+		{
+			"mWorkRatio"
+			0.00000000
+		}
+	}
+	"no-spline"
+	"hikarikinoko"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			4783.08154297 400.00000000 7248.94091797
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 248.13380432 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mGrown"
+			1
+		}
+		{
+			"mKakureba"
+			0
+		}
+		{
+			"mColor"
+			1
+		}
+	}
+	"no-spline"
+	"hikarikinoko"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5372.54589844 457.58593750 7112.18554688
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 203.17868042 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mGrown"
+			1
+		}
+		{
+			"mKakureba"
+			0
+		}
+		{
+			"mColor"
+			1
+		}
+	}
+	"no-spline"
+	"hikarikinoko"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5038.75341797 465.58593750 6739.63769531
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 148.91609192 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mGrown"
+			1
+		}
+		{
+			"mKakureba"
+			0
+		}
+		{
+			"mColor"
+			1
+		}
+	}
+	"no-spline"
+	"hikarikinoko"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5580.79882813 400.00000000 6560.05126953
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 260.04580688 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mGrown"
+			1
+		}
+		{
+			"mKakureba"
+			0
+		}
+		{
+			"mColor"
+			1
+		}
+	}
+	"no-spline"
+	"hikarikinoko"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			5400.95996094 400.00000000 6494.96533203
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 22.27412033 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			0
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mGrown"
+			1
+		}
+		{
+			"mKakureba"
+			0
+		}
+		{
+			"mColor"
+			1
+		}
+	}
+	"no-spline"
+	"OrimaMemo"
+	"0007"
+	"" "" ""
+	1 # Normal [0=false, 1=true]
+	1 # Hard [0=false, 1=true]
+	1 # Ultra-Spicy [0=false, 1=true]
+	0 # Face ID (Unknown)
+	0 # Face Message Table (Unkown)
+	{
+		{
+			"mPos"
+			4770.07373047 400.00781250 7201.00439453
+		}
+		{
+			"mBaseScale"
+			1.00000000
+		}
+		{
+			"mPosture"
+			0.00000000 0.00000000 0.00000000
+		}
+		{
+			"mSaveOption"
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+		}
+		{
+			"mPosAlign"
+			1
+		}
+		{
+			"mNum"
+			1
+		}
+		{
+			"mEmitRadius"
+			0.00000000
+		}
+		{
+			"mDrop"
+			{
+				4
+				0
+			}
+		}
+		{
+			"mMemoID"
+			"C016"
+		}
+		{
+			"mDisableCollision"
+			0
+		}
+	}
+	"no-spline"
+}

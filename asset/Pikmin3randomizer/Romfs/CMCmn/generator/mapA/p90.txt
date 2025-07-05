@@ -1,0 +1,1023 @@
+# p90 [mapA@single]
+{
+	"Arijigoku" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			0.00000000 0.00000000 -9900.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				2 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"WaterMelon" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					115 # ItemId
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"AntennaB" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 登場デモ
+		{
+			"mEntranceDemo" 
+			# @var(bool,mEntranceDemo)
+			1 
+		}
+		# LifeRatio
+		{
+			"mLifeRatio" 
+			# @var(float,mLifeRatio)
+			1.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			0.00000000 0.00000000 -9900.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cCylinder" 0 500.00000000 30.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"i55" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			0.00000000 0.00000000 -9900.00000000 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			0 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Tateana" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	0 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			834.84997559 80.00000000 -10320.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Bomb" # Cid
+					2 # MinDrops
+					2 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 終点
+		{
+			"mEndPos" 
+			# @var(Vector3f,mEndPos)
+			705.50000000 -21.50000000 -10241.50000000 
+		}
+		# DropIndex : save
+		{
+			"mDropIndex" 
+			# @var(int,mDropIndex)
+			0 
+		}
+		# 吹き出し方向ランダム角度
+		{
+			"mThrowRange" 
+			# @var(float,mThrowRange)
+			0.00000000 
+		}
+		# 吹き出し : XZ速度
+		{
+			"mThrowXZVel" 
+			# @var(float,mThrowXZVel)
+			3.00000000 
+		}
+		# 吹き出し : XZ速度乱
+		{
+			"mThrowXZVelRand" 
+			# @var(float,mThrowXZVelRand)
+			1.00000000 
+		}
+		# 吹き出し : Y速度
+		{
+			"mThrowYVel" 
+			# @var(float,mThrowYVel)
+			12.00000000 
+		}
+		# 吹き出し : Y速度乱
+		{
+			"mThrowYVelRand" 
+			# @var(float,mThrowYVelRand)
+			3.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Tateana" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	0 # Normal
+	0 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-668.90002441 95.30000305 -10588.20019531 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 325.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Bomb" # Cid
+					2 # MinDrops
+					2 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 終点
+		{
+			"mEndPos" 
+			# @var(Vector3f,mEndPos)
+			-565.64916992 -16.40999985 -10501.22167969 
+		}
+		# DropIndex : save
+		{
+			"mDropIndex" 
+			# @var(int,mDropIndex)
+			0 
+		}
+		# 吹き出し方向ランダム角度
+		{
+			"mThrowRange" 
+			# @var(float,mThrowRange)
+			180.00000000 
+		}
+		# 吹き出し : XZ速度
+		{
+			"mThrowXZVel" 
+			# @var(float,mThrowXZVel)
+			3.00000000 
+		}
+		# 吹き出し : XZ速度乱
+		{
+			"mThrowXZVelRand" 
+			# @var(float,mThrowXZVelRand)
+			1.00000000 
+		}
+		# 吹き出し : Y速度
+		{
+			"mThrowYVel" 
+			# @var(float,mThrowYVel)
+			12.00000000 
+		}
+		# 吹き出し : Y速度乱
+		{
+			"mThrowYVelRand" 
+			# @var(float,mThrowYVelRand)
+			3.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			611.66876221 -610.50000000 -10190.90917969 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"E005" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-452.20977783 -610.64843750 -10399.12402344 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"E004" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Tateana" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	0 # Easy
+	0 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			834.79998779 80.00000000 -10313.59960938 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Bomb" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 終点
+		{
+			"mEndPos" 
+			# @var(Vector3f,mEndPos)
+			705.44628906 -21.50000000 -10241.48437500 
+		}
+		# DropIndex : save
+		{
+			"mDropIndex" 
+			# @var(int,mDropIndex)
+			0 
+		}
+		# 吹き出し方向ランダム角度
+		{
+			"mThrowRange" 
+			# @var(float,mThrowRange)
+			0.00000000 
+		}
+		# 吹き出し : XZ速度
+		{
+			"mThrowXZVel" 
+			# @var(float,mThrowXZVel)
+			3.00000000 
+		}
+		# 吹き出し : XZ速度乱
+		{
+			"mThrowXZVelRand" 
+			# @var(float,mThrowXZVelRand)
+			1.00000000 
+		}
+		# 吹き出し : Y速度
+		{
+			"mThrowYVel" 
+			# @var(float,mThrowYVel)
+			12.00000000 
+		}
+		# 吹き出し : Y速度乱
+		{
+			"mThrowYVelRand" 
+			# @var(float,mThrowYVelRand)
+			3.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Tateana" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	0 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-668.90002441 95.30000305 -10588.20019531 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 325.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Bomb" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 終点
+		{
+			"mEndPos" 
+			# @var(Vector3f,mEndPos)
+			-560.91729736 -16.40999985 -10497.90820313 
+		}
+		# DropIndex : save
+		{
+			"mDropIndex" 
+			# @var(int,mDropIndex)
+			0 
+		}
+		# 吹き出し方向ランダム角度
+		{
+			"mThrowRange" 
+			# @var(float,mThrowRange)
+			180.00000000 
+		}
+		# 吹き出し : XZ速度
+		{
+			"mThrowXZVel" 
+			# @var(float,mThrowXZVel)
+			3.00000000 
+		}
+		# 吹き出し : XZ速度乱
+		{
+			"mThrowXZVelRand" 
+			# @var(float,mThrowXZVelRand)
+			1.00000000 
+		}
+		# 吹き出し : Y速度
+		{
+			"mThrowYVel" 
+			# @var(float,mThrowYVel)
+			12.00000000 
+		}
+		# 吹き出し : Y速度乱
+		{
+			"mThrowYVelRand" 
+			# @var(float,mThrowYVelRand)
+			3.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-1363.21643066 80.00000000 -1350.17980957 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cSphere" 0 200.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"a99" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-1363.21643066 80.00000000 -1250.17980957 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			0 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+}

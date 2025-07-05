@@ -1,0 +1,2962 @@
+# p20 [mapC@single]
+{
+	"WaterBox" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6800.00000000 -3.00000000 -4100.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			1 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 水面スケール（1倍で幅100の正方形）
+		{
+			"mScale" 
+			# @var(float,mScale)
+			5.00000000 
+		}
+		# 深さ（デフォルト200・スケール無視）
+		{
+			"mDepth" 
+			# @var(float,mDepth)
+			200.00000000 
+		}
+		# 水面モデル名
+		{
+			"mModelName" 
+1 "" 
+		}
+	}
+	"no-spline" # 
+# 
+	"Karehambo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6695.00000000 0.00000000 -4880.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 200.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 個別テリトリ半径(0以上なら有効)
+		{
+			"mTerritoryRadius" 
+			# @var(float,mTerritoryRadius)
+			150.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Karehambo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6665.00000000 0.00000000 -4950.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 60.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 個別テリトリ半径(0以上なら有効)
+		{
+			"mTerritoryRadius" 
+			# @var(float,mTerritoryRadius)
+			150.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Karehambo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6755.00000000 0.00000000 -5025.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 270.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 個別テリトリ半径(0以上なら有効)
+		{
+			"mTerritoryRadius" 
+			# @var(float,mTerritoryRadius)
+			150.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-4980.00000000 0.00000000 -6940.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					2 # MinDrops
+					3 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 個別テリトリ半径(0以上なら有効)
+		{
+			"mTerritoryRadius" 
+			# @var(float,mTerritoryRadius)
+			300.00000000 
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			1 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"YukiFutakuchi" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6770.00000000 31.01562500 -3370.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 180.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					0.50000000 # Ratio
+					"Pellet1" # Cid
+					1 # MinDrops
+					2 # MaxDrops
+					5 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 個別テリトリ半径(0以上なら有効)
+		{
+			"mTerritoryRadius" 
+			# @var(float,mTerritoryRadius)
+			0.00000000 
+		}
+		# 自分より低い位置も検索する
+		{
+			"mSplineSearchUnderMe" 
+			# @var(bool,mSplineSearchUnderMe)
+			1 
+		}
+		# 常にCalc回す
+		{
+			"mAlwaysCalc" 
+			# @var(bool,mAlwaysCalc)
+			0 
+		}
+		# Spline攻撃時はバトルBGMにしない
+		{
+			"mSplineNoBattleBGM" 
+			# @var(bool,mSplineNoBattleBGM)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Egg" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6115.00000000 70.00000000 -4275.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 90.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			3 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			3 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			30.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6700.00000000 0.00000000 -3250.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			30.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			70.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			35.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				1 # Circle Num
+				#  (Excavation::DigCircle)
+				{
+					1 # Version
+					45.00000000 # Radius
+					10.00000000 # Depth
+					0.00000000 0.00000000 // Vector2
+# Offset
+				}
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			100.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			30.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			0 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			1.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			80 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			-1.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			-1.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cMAP_TEXTURE :: @var(int,mMatType)
+			2 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"C_snowA" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			0 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			0 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6970.00000000 20.00000000 -3470.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			10.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			20.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				1 # Circle Num
+				#  (Excavation::DigCircle)
+				{
+					1 # Version
+					25.00000000 # Radius
+					10.00000000 # Depth
+					0.00000000 0.00000000 // Vector2
+# Offset
+				}
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			80.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			20.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			0 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			3.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			120.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			120.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cMAP_TEXTURE :: @var(int,mMatType)
+			2 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"C_snowA" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			0 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			0 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6710.00000000 0.00000000 -3530.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			10.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			20.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				1 # Circle Num
+				#  (Excavation::DigCircle)
+				{
+					1 # Version
+					25.00000000 # Radius
+					10.00000000 # Depth
+					0.00000000 0.00000000 // Vector2
+# Offset
+				}
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			80.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			30.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			0 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			5.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			120.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			120.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cMAP_TEXTURE :: @var(int,mMatType)
+			2 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"C_snowA" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			0 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			0 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"PlayerOpt_Thunder" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6700.00000000 14.29687500 -3250.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 180.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 識別ID(1以上で有効)
+		{
+			"mItemID" 
+			# @var(int,mItemID)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6840.00000000 -3.00000000 -4118.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"S004" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pellet5" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6970.00000000 29.82707596 -3470.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+2 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pellet1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6710.00000000 12.81250000 -3530.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+0 
+		}
+	}
+	"no-spline" # 
+# 
+	"HeightMap" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6830.00000000 20.00000000 -3400.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			1 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# タイプ
+		{
+			"mMatType" 
+			# cMAP_TEXTURE :: @var(int,mMatType)
+			2 
+		}
+		# 地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"C_snowA" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# 地形コードを手動で設定する
+		{
+			"mManualHardCollEffect" 
+			# @var(bool,mManualHardCollEffect)
+			0 
+		}
+		# 地形コード手動設定
+		{
+			"mHardCollEffect" 
+			# none :: @var(int,mHardCollEffect)
+			0 
+		}
+		# X方向幅
+		{
+			"mLengthX" 
+			# @var(float,mLengthX)
+			700.00000000 
+		}
+		# Z方向幅
+		{
+			"mLengthZ" 
+			# @var(float,mLengthZ)
+			700.00000000 
+		}
+		# グリッドサイズ
+		{
+			"mGridSize" 
+			# @var(float,mGridSize)
+			30.00000000 
+		}
+		# Warper最大数
+		{
+			"mWarperSize" 
+			# @var(int,mWarperSize)
+			0 
+		}
+		# 爆風凹み復元
+		{
+			"mBombRecovery" 
+			# @var(bool,mBombRecovery)
+			1 
+		}
+		# [初期歪み]回数
+		{
+			"mWarpNum" 
+			# @var(int,mWarpNum)
+			0 
+		}
+		# [初期歪み]最少高さ
+		{
+			"mWarpMinH" 
+			# @var(float,mWarpMinH)
+			0.00000000 
+		}
+		# [初期歪み]最大高さ
+		{
+			"mWarpMaxH" 
+			# @var(float,mWarpMaxH)
+			0.00000000 
+		}
+		# [初期歪み]最少半径
+		{
+			"mWarpMinR" 
+			# @var(float,mWarpMinR)
+			50.00000000 
+		}
+		# [初期歪み]最大半径
+		{
+			"mWarpMaxR" 
+			# @var(float,mWarpMaxR)
+			1000.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6865.00000000 30.00000000 -3735.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			-1.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			-1.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				0 # Circle Num
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			150.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			60.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			1 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			1.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			-1.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			-1.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cSAND :: @var(int,mMatType)
+			0 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			1 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			1 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6775.00000000 30.00000000 -3710.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			-1.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			-1.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				0 # Circle Num
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			150.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			50.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			1 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			-60.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			-60.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			1.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			-1.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			-1.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cSAND :: @var(int,mMatType)
+			0 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			1 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			1 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6893.00000000 34.00000000 -3371.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			-1.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			-1.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				0 # Circle Num
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			400.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			30.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			0 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			1.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			-1.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			-1.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cSAND :: @var(int,mMatType)
+			0 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			1 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			1 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Excavation" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6893.00000000 34.00000000 -3371.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 埋蔵物半径
+		{
+			"mItemRadius" 
+			# @var(float,mItemRadius)
+			-1.00000000 
+		}
+		# 埋まり量
+		{
+			"mBuryOffsetY" 
+			# @var(float,mBuryOffsetY)
+			-1.00000000 
+		}
+		# 目標掘り深さ
+		{
+			"mGoalDepth" 
+			# @var(float,mGoalDepth)
+			-1.00000000 
+		}
+		# 堀り位置
+		{
+			"mDigCircles" 
+			#  (Excavation::DigCircleArray)
+			{
+				1 # Version
+				0 # Circle Num
+			}
+
+		}
+		# 堀り位置高さoffset
+		{
+			"mDigHeightOffset" 
+			# @var(float,mDigHeightOffset)
+			0.00000000 
+		}
+		# 初期地形半径
+		{
+			"mWarpRadius" 
+			# @var(float,mWarpRadius)
+			80.00000000 
+		}
+		# 初期地形高さ/深さ
+		{
+			"mWarpHeight" 
+			# @var(float,mWarpHeight)
+			50.00000000 
+		}
+		# 初期地形凹みタイプ
+		{
+			"mIsDip" 
+			# @var(bool,mIsDip)
+			1 
+		}
+		# 初期地形Xオフセット
+		{
+			"mWarpOffsetX" 
+			# @var(float,mWarpOffsetX)
+			0.00000000 
+		}
+		# 初期地形Zオフセット
+		{
+			"mWarpOffsetZ" 
+			# @var(float,mWarpOffsetZ)
+			0.00000000 
+		}
+		# スロット最大数
+		{
+			"mMaxSlots" 
+			# @var(int,mMaxSlots)
+			-1 
+		}
+		# 掘り速さ倍率
+		{
+			"mDigSpeedFactor" 
+			# @var(float,mDigSpeedFactor)
+			1.00000000 
+		}
+		# Z方向飛び出し速度(mm/frm)
+		{
+			"mLaunchVelZ" 
+			# @var(float,mLaunchVelZ)
+			0.00000000 
+		}
+		# この進捗％まで掘れば発見扱い
+		{
+			"mAppearWorkRatio" 
+			# @var(int,mAppearWorkRatio)
+			0 
+		}
+		# [HM一体型]X幅
+		{
+			"mHMWidthX" 
+			# @var(float,mHMWidthX)
+			-1.00000000 
+		}
+		# [HM一体型]Z幅
+		{
+			"mHMWidthZ" 
+			# @var(float,mHMWidthZ)
+			-1.00000000 
+		}
+		# [HM一体型]グリッド
+		{
+			"mHMGridSize" 
+			# @var(float,mHMGridSize)
+			-1.00000000 
+		}
+		# [HM一体型]タイプ
+		{
+			"mMatType" 
+			# cSAND :: @var(int,mMatType)
+			0 
+		}
+		# [HM一体型]地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+			1.00000000 # mSpecularRate
+			0.00000000 # mCubeEnvMapScale
+			0.80199999 # mRoughness
+			1.15999997 # mFresnelEnvCubeMapPower
+
+		}
+		# [HM一体型]Random歪み数
+		{
+			"mRandomWarpNum" 
+			# @var(int,mRandomWarpNum)
+			5 
+		}
+		# [HM一体型]Random歪み半径係数
+		{
+			"mRandomWarpFactorR" 
+			# @var(float,mRandomWarpFactorR)
+			1.00000000 
+		}
+		# [HM一体型]Random歪み高さ係数
+		{
+			"mRandomWarpFactorH" 
+			# @var(float,mRandomWarpFactorH)
+			0.30000001 
+		}
+		# 何も埋めない
+		{
+			"mNoItem" 
+			# @var(bool,mNoItem)
+			1 
+		}
+		# 掘らない
+		{
+			"mInactive" 
+			# @var(bool,mInactive)
+			1 
+		}
+		# MapA Boss Demo
+		{
+			"mArijigokuDemo" 
+			# @var(bool,mArijigokuDemo)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			1179.00000000 -756.16497803 2165.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"S005" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			1410.11193848 -715.00000000 2575.07666016 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"C011" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6279.68310547 0.00000000 -5225.69970703 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"E020" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+}

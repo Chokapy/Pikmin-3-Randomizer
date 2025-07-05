@@ -1,0 +1,795 @@
+# p30 [mapC@single]
+{
+	"Pelplant1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			200.00000000 -800.00000000 -25.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 270.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+2 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-410.00000000 -800.00000000 120.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 90.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+1 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-310.00000000 -800.00000000 320.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 140.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+2 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-160.00000000 -800.00000000 350.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 170.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+0 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant1" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-700.00000000 -850.00000000 -70.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 90.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+0 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant5" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-500.00000000 -800.00000000 -1730.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+0 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant5" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-390.00000000 -850.00000000 1220.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 290.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+1 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"Pelplant5" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6520.00000000 5.88120794 -3980.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 150.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 色
+		{
+			"mColor" 
+5 
+		}
+		# 初期状態
+		{
+			"mBirthState" 
+2 
+		}
+		# デモで咲く
+		{
+			"mDemoBloom" 
+			# @var(bool,mDemoBloom)
+			0 
+		}
+		# デモで咲くまでの時間
+		{
+			"mDemoBloomTime" 
+			# @var(int,mDemoBloomTime)
+			-1 
+		}
+		# Save : 復活までの日数
+		{
+			"mRebirthCounter2" 
+			# @var(int,mRebirthCounter2)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+}

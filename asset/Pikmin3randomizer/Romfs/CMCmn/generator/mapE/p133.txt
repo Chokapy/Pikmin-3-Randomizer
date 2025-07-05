@@ -1,0 +1,116 @@
+# p133 [mapE@single]
+{
+	"DemoArea" # 
+	"0005" # Version
+	"" "" "" # GeneratorID
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			4689.56689453 1764.99218750 5122.67138672 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 37.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 110.00000000 50.00000000 150.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"e13" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			4689.56689453 1764.99194336 5122.67138672 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			1 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+}

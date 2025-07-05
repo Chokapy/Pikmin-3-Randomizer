@@ -1,0 +1,160 @@
+# p134 [mapE@single]
+{
+	"Portal" # 
+	"0007" # Version
+	"r05B" "r03A" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			4060.00000000 1675.00000000 4890.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 24.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			1 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# ワープタイプ
+		{
+			"mWarpType" 
+0 
+		}
+		# （不使用）カメラ : 遮蔽状態でスタート
+		{
+			"mElevationStart" 
+			# @var(bool,mElevationStart)
+			0 
+		}
+		# カメラ : 背面へ回転しない
+		{
+			"mNotRotate" 
+			# @var(bool,mNotRotate)
+			1 
+		}
+		# 隊列ピクミンInチェック
+		{
+			"mInsideCheckPikmin" 
+			# @var(bool,mInsideCheckPikmin)
+			0 
+		}
+		# ストッパーの高さをBoundに合わせる
+		{
+			"mStopperHeightBound" 
+			# @var(bool,mStopperHeightBound)
+			0 
+		}
+		# カメラ : 角度（左回り）
+		{
+			"mCameraRot" 
+			# @var(float,mCameraRot)
+			180.00000000 
+		}
+		# 当たりScale
+		{
+			"mBoundScale" 
+			# @var(Vector3f,mBoundScale)
+			90.00000000 50.00000000 70.00000000 
+		}
+		# 隊列ピクミンInチェックBound : Scale
+		{
+			"mBoundScaleInsideCheck" 
+			# @var(Vector3f,mBoundScaleInsideCheck)
+			50.00000000 50.00000000 50.00000000 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# デモフラグタイプ
+		{
+			"mDemoFlagType" 
+0 
+		}
+		# レーダーアイコンを表示
+		{
+			"mRadarIconVisible" 
+			# @var(bool,mRadarIconVisible)
+			1 
+		}
+		# レーダーアイコン位置のオフセット（3D空間上のxz座標）
+		{
+			"mRadarIconOffset" 
+			# @var(Vector2f,mRadarIconOffset)
+			0.00000000 0.00000000 
+		}
+		# エルミート曲線用の角度補正値（0で元となったポータルアイコンの矢印の向き）
+		{
+			"mVectorRot" 
+			# @var(float,mVectorRot)
+			-15.00000000 
+		}
+		# エルミート曲線用の力補正値（0でペアと直線を引く）
+		{
+			"mVectorPow" 
+			# @var(float,mVectorPow)
+			30.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	4060.00000000 1675.00000000 4890.00000000 // Vector3
+	4095.00000000 1673.92382812 4965.00000000 // Vector3
+	4165.00000000 1675.00000000 5070.00000000 // Vector3
+208.97061157 	0 # params
+# 
+}

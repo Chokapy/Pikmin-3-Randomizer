@@ -1,0 +1,1899 @@
+# p130 [mapE@single]
+{
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			4687.52783203 1761.57702637 5122.38037109 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 37.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			133 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 110.00000000 50.00000000 150.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"e12" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			4677.09033203 1761.57702637 5104.27099609 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			1 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			4205.84277344 1675.00000000 5183.64990234 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			133 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cCylinder" 0 400.00000000 25.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"e14" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			4205.84277344 1675.00000000 5283.64990234 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			1 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6424.86474609 0.00000000 6615.68212891 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"S008" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6305.12060547 -0.73437500 -4603.53710938 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 219.06613159 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"S009" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-5970.02197266 -81.00000000 167.46801758 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 41.20172882 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 200.00000000 100.00000000 50.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao221" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-5827.65917969 -73.63281250 225.39303589 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-4778.82910156 -10.00000000 -181.42344666 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cCylinder" 0 80.00000000 50.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao224" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-4817.46875000 -10.00000000 -226.81193542 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"OhjamaCrystal" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			1 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6242.12792969 0.00000000 -4979.35595703 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 120.00000000 50.00000000 20.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao225" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-6242.12792969 0.00000000 -4879.35595703 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6157.08642578 136.44395447 -3933.06591797 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 2.02533197 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 20.00000000 50.00000000 80.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao226" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-5665.84716797 97.82812500 -4023.98046875 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"ConnectLine" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-4708.51171875 84.66406250 -3584.44165039 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 15.58826160 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 120.00000000 50.00000000 20.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao227" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-4681.63916016 84.66406250 -3488.12036133 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cNoCondition :: @var(int,mType)
+			0 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"0" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			0 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6635.01464844 -90.00000000 1286.43188477 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 150.00000000 50.00000000 50.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao251" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-6555.38427734 -90.00000000 1047.22827148 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"Kochappy" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			1 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			0 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			1 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-5905.22021484 -70.00000000 316.40487671 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 40.98574066 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			134 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 260.00000000 100.00000000 50.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao250" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-5931.37695313 -70.00000000 579.54406738 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"WaterTank" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			0 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			1 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7599.36132813 -40.00000000 1244.60119629 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"E011" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-5569.74462891 99.07812500 -4049.54370117 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"D005" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			5176.39404297 379.28125000 -6527.24121094 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"D004" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"DemoArea" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-5800.30322266 0.00000000 -3589.36108398 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 260.78421021 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			1 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# デモエリア
+		{
+			"mBound" 
+			1 "cBox" 0 200.00000000 60.00000000 80.00000000 
+		}
+		# demo
+		{
+			"mDemoName" 
+			"Kao228" 
+		}
+		# 注視点
+		{
+			"mSubPos" 
+			# @var(Vector3f,mSubPos)
+			-5781.41259766 0.00000000 -3594.83569336 
+		}
+		# タイプ
+		{
+			"mType" 
+			# cSubPosVisible :: @var(int,mType)
+			1 
+		}
+		# 関連CID
+		{
+			"mCID" 
+"Gate" 
+		}
+		# 注目するか
+		{
+			"mLockon" 
+			# @var(bool,mLockon)
+			0 
+		}
+		# 同じ DemoName を削除するか
+		{
+			"mRemoveSameId" 
+			# @var(bool,mRemoveSameId)
+			1 
+		}
+		# Notice するか
+		{
+			"mNotice" 
+			# @var(bool,mNotice)
+			1 
+		}
+		# 有効進行度 >= (-1 なら常に有効)
+		{
+			"mActiveProgress" 
+			# @var(int,mActiveProgress)
+			-1 
+		}
+		# e16 デモ(ブリ誘導)がオフのときだけ有効
+		{
+			"mEnableIfE16IsOff" 
+			# @var(bool,mEnableIfE16IsOff)
+			0 
+		}
+		# e01 デモがオフのときだけ有効
+		{
+			"mEnableIfE01IsOff" 
+			# @var(bool,mEnableIfE01IsOff)
+			0 
+		}
+		# 誘導している人（主にブリ）だけ有効
+		{
+			"mEnableIfPuller" 
+			# @var(bool,mEnableIfPuller)
+			0 
+		}
+		# 顔フラグを無視
+		{
+			"mIgnoreKaoFlag" 
+			# @var(bool,mIgnoreKaoFlag)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-4350.62109375 -10.00000000 -114.07383728 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"D006" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			3870.50390625 0.00000000 -6273.26171875 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"E012" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OrimaMemo" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6833.90820313 -150.00000000 -634.21392822 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			0 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# メモのID
+		{
+			"mMemoID" 
+			"D009" 
+		}
+		# 地形オブジェとのコリジョン無効
+		{
+			"mDisableCollision" 
+			# @var(bool,mDisableCollision)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+}

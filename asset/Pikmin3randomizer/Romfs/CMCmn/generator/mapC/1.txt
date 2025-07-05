@@ -1,0 +1,2210 @@
+# 1 [mapC@single]
+{
+	"ConnectLine" # 
+	"0007" # Version
+	"clmain" "lbmain" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6551.79003906 151.89843750 -1860.41088867 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 250.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			20 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			1 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-6636.36376953 136.84379578 -1859.56103516 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	10 # node num
+	-6521.00000000 172.00000000 -1960.00000000 // Vector3
+	-6518.88916016 162.53129578 -1935.28100586 // Vector3
+	-6532.05615234 158.50779724 -1909.07995605 // Vector3
+	-6538.01416016 155.25779724 -1874.79699707 // Vector3
+	-6555.05908203 150.21090698 -1843.26696777 // Vector3
+	-6561.65722656 146.79690552 -1808.13195801 // Vector3
+	-6582.35693359 141.26559448 -1779.25000000 // Vector3
+	-6587.52099609 138.53129578 -1750.78100586 // Vector3
+	-6606.93701172 133.66409302 -1728.47497559 // Vector3
+	-6615.00000000 136.00000000 -1700.00000000 // Vector3
+287.89050293 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"cl01" "lb01" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-8227.23925781 0.00000000 -1780.00134277 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 110.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			0 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-8116.36376953 0.00000000 -1764.56103516 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-8204.00000000 8.00000000 -1715.00000000 // Vector3
+	-8226.00000000 8.00000000 -1782.00000000 // Vector3
+	-8240.00000000 8.00000000 -1853.00000000 // Vector3
+142.88662720 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"cl02" "lb02" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7827.98046875 0.00000000 -1038.87597656 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 205.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			0 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-7866.36376953 0.00000000 -1164.56103516 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-7781.00000000 8.00000000 -1084.00000000 // Vector3
+	-7834.00000000 8.00000000 -1048.00000000 // Vector3
+	-7870.00000000 8.00000000 -996.00000000 // Vector3
+127.31582642 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"cl03" "lb03" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6885.43554688 -26.21093750 -1420.41870117 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 240.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			0 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-6966.36376953 -26.18762016 -1464.56103516 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-6859.00000000 -24.00000000 -1469.00000000 // Vector3
+	-6895.00000000 -18.00000000 -1420.00000000 // Vector3
+	-6911.00000000 -14.00000000 -1368.00000000 // Vector3
+115.65100861 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"cl04" "lb04" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7603.72558594 30.00000000 -2954.18164062 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 5.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			0 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-7616.36376953 30.00000000 -2814.56005859 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-7683.00000000 38.00000000 -2939.00000000 // Vector3
+	-7613.00000000 38.00000000 -2955.00000000 // Vector3
+	-7523.00000000 38.00000000 -2958.00000000 // Vector3
+161.85528564 	0 # params
+# 
+	"Branch" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7250.00000000 0.00000000 -2440.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 347.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# パスオフする
+		{
+			"mPathOff" 
+			# @var(bool,mPathOff)
+			0 
+		}
+		# 完成状態
+		{
+			"mDead" 
+			# @var(bool,mDead)
+			0 
+		}
+		# 地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"no-spline" # 
+# 
+	"Bridge40A" # 
+	"0007" # Version
+	"Brg40A" "Nnd40A" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7300.00000000 30.00000000 -1835.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+		# 完成状態
+		{
+			"mDead" 
+			# @var(bool,mDead)
+			0 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+		# 初期個数
+		{
+			"mInitNum" 
+			# @var(int,mInitNum)
+			10 
+		}
+		# 終点
+		{
+			"mEndPos" 
+			# @var(Vector3f,mEndPos)
+			-6900.00000000 30.00000000 -1835.00000000 
+		}
+		# 土台を表示する
+		{
+			"mBase" 
+			# @var(bool,mBase)
+			1 
+		}
+		# 地形マテリアル名
+		{
+			"mMapMaterialName" 
+			2 # cGenDataVersion
+			"" # mMaterialName
+
+		}
+		# 対岸ストッパーオン
+		{
+			"mStopperB" 
+			# @var(bool,mStopperB)
+			0 
+		}
+		# 小さいストッパー
+		{
+			"mSmallStopper" 
+			# @var(bool,mSmallStopper)
+			0 
+		}
+		# ストッパー投げすり抜ける
+		{
+			"mThrowThrough" 
+			# @var(bool,mThrowThrough)
+			1 
+		}
+	}
+	"no-spline" # 
+# 
+	"NendoStation40A" # 
+	"0007" # Version
+	"Nnd40A" "Brg40A" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7640.00000000 120.00000000 -930.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 数
+		{
+			"mNendoNum" 
+			# @var(int,mNendoNum)
+			25 
+		}
+		# Save : Num
+		{
+			"mSaveNum2" 
+			# @var(int,mSaveNum2)
+			-1 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+		# Color
+		{
+			"mColor" 
+0 
+		}
+	}
+	"no-spline" # 
+# 
+	"NendoStation40A" # 
+	"0007" # Version
+	"Nnd40A" "Brg40A" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7185.00000000 110.00000000 -2710.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 347.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 数
+		{
+			"mNendoNum" 
+			# @var(int,mNendoNum)
+			25 
+		}
+		# Save : Num
+		{
+			"mSaveNum2" 
+			# @var(int,mSaveNum2)
+			-1 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+		# Color
+		{
+			"mColor" 
+0 
+		}
+	}
+	"no-spline" # 
+# 
+	"OhjamaCrystal" # 
+	"0007" # Version
+	"" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7480.00000000 50.00000000 -940.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.10000002 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 90.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# パスオフする
+		{
+			"mPathOff" 
+			# @var(bool,mPathOff)
+			1 
+		}
+		# LifeRatio
+		{
+			"mLifeRatio" 
+			# @var(float,mLifeRatio)
+			1.00000000 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"" 
+		}
+	}
+	"no-spline" # 
+# 
+	"Ohbakekagami" # 
+	"0007" # Version
+	"ob2" "ph01" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-8249.73242188 70.00000000 -2086.89697266 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 258.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Mango" # Cid
+					1 # MinDrops
+					1 # MaxDrops
+					300 # ItemId
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# LifeRatio
+		{
+			"mLifeRatio" 
+			# @var(float,mLifeRatio)
+			1.00000000 
+		}
+		# ボス部屋前モード
+		{
+			"mPreRoomDemo" 
+			# @var(bool,mPreRoomDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7487.74853516 0.00000000 -1527.60888672 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 0.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					0 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7337.54541016 0.00000000 -2107.02148437 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 180.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					0 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7506.36376953 30.00000000 -2744.56005859 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 280.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					2 # MinDrops
+					3 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7855.35253906 60.00000000 -2717.37084961 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			90.00000000 88.74277496 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					1 # MinDrops
+					2 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-6857.45410156 -4.51081848 -2120.30932617 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			90.00000000 292.64562988 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					0 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7288.22509766 30.00000000 -1272.85998535 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			90.00000000 241.99998474 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					0 # MinDrops
+					1 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"KokagamiEgg" # 
+	"0007" # Version
+	"demo" "" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-7109.75048828 30.00000000 -1300.96594238 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			90.00000000 177.68502808 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				1 # NumParams
+				# 
+				{
+					4 # Version
+					1.00000000 # Ratio
+					"Honey" # Cid
+					1 # MinDrops
+					2 # MaxDrops
+					0 # Extra
+					1 # Easy
+					1 # Normal
+					1 # Hard
+				}
+			}
+
+		}
+		# 活性状態
+		{
+			"mIsActive" 
+			# @var(bool,mIsActive)
+			0 
+		}
+		# デモで活性状態済み
+		{
+			"mIsWatchedHowlDemo" 
+			# @var(bool,mIsWatchedHowlDemo)
+			0 
+		}
+	}
+	"no-spline" # 
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"clroom4" "lbroom4" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-5375.00000000 -70.00000000 -6655.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 112.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			1 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			1 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			-5375.00000000 -70.00000000 -6655.00000000 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"c21" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-5426.00000000 -18.00000000 -6580.00000000 // Vector3
+	-5441.00000000 -18.00000000 -6624.00000000 // Vector3
+	-5460.00000000 -18.00000000 -6671.00000000 // Vector3
+97.18172455 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"clroom0" "lbroom0" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			-67.00000000 80.00000000 6920.00000000 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 80.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cNone :: @var(int,mPosAlign)
+			0 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			5 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			1 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			0.00000000 80.00000000 6950.00000000 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"c12" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	-80.00000000 86.00000000 6965.00000000 // Vector3
+	-71.00000000 86.00000000 6932.00000000 // Vector3
+	-68.00000000 86.00000000 6897.00000000 // Vector3
+69.33360291 	0 # params
+# 
+	"ConnectLine" # 
+	"0007" # Version
+	"clroom6" "lbroom6" "" # GeneratorID
+	1 # Easy
+	1 # Normal
+	1 # Hard
+	0 # 顔ID
+	0 # 顔メッセージの表示
+	# Params
+	{
+		# 位置
+		{
+			"mPos" 
+			# @var(Vector3f,mPos)
+			6789.45849609 0.00000000 -239.24746704 
+		}
+		# スケール
+		{
+			"mBaseScale" 
+			# @var(float,mBaseScale)
+			1.00000000 
+		}
+		# 姿勢
+		{
+			"mPosture" 
+			# @var(Vector3f,mPosture)
+			0.00000000 305.00000000 0.00000000 
+		}
+		# セーブオプション
+		{
+			"mSaveOption" 
+			3 # flag
+			0 # birthday
+			0 # deadday
+			0 # interval
+			0 # expireday
+			1 # curr num
+			0 # expire progress
+
+		}
+		# 位置自動補正
+		{
+			"mPosAlign" 
+			# cMap :: @var(int,mPosAlign)
+			1 
+		}
+		# 生成数
+		{
+			"mNum" 
+			# @var(int,mNum)
+			1 
+		}
+		# ランダム生成半径
+		{
+			"mEmitRadius" 
+			# @var(float,mEmitRadius)
+			0.00000000 
+		}
+		# 落し物
+		{
+			"mDrop" 
+			# Drop
+			{
+				4 # Version
+				0 # NumParams
+			}
+
+		}
+		# 必要なピクミンの数
+		{
+			"mPikiNum" 
+			# @var(int,mPikiNum)
+			10 
+		}
+		# 部屋の明かり付ける
+		{
+			"mRoomLightOn" 
+			# @var(bool,mRoomLightOn)
+			1 
+		}
+		# Z軸方向にはじく
+		{
+			"mFlickDirZ" 
+			# @var(bool,mFlickDirZ)
+			1 
+		}
+		# ActivePlkayerが同じルームにいるときだけデモ再生
+		{
+			"mActivePlayerRoom" 
+			# @var(bool,mActivePlayerRoom)
+			0 
+		}
+		# 仕事後のピクミン集合位置
+		{
+			"mPikminPos" 
+			# @var(Vector3f,mPikminPos)
+			6720.00000000 0.00000000 -180.00000000 
+		}
+		# デモ番号
+		{
+			"mDemoIndex" 
+			"c17" 
+		}
+		# WorkRatio
+		{
+			"mWorkRatio" 
+			# @var(float,mWorkRatio)
+			0.00000000 
+		}
+	}
+	"spline" # 
+	3 # node num
+	6747.00000000 7.00000000 -295.00000000 // Vector3
+	6792.00000000 5.00000000 -238.00000000 // Vector3
+	6830.00000000 4.00000000 -181.00000000 // Vector3
+141.16264343 	0 # params
+# 
+}

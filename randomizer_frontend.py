@@ -27,12 +27,13 @@ def init_window():
 def randomize():
     if var_left[0].get():
         bknd.randomize_all(bknd.gen_folder, bknd.enemies_to_replace, bknd.enemies_list)
+        bknd.randomize_all(bknd.gen_folder, bknd.enemies_drop_to_replace, bknd.enemies_drop_list)
 
     if var_left[1].get():
         bknd.randomize_all(bknd.gen_folder, bknd.fruits_to_replace, bknd.fruits_list)
 
     if var_left[2].get():
-        bknd.randomize_all(bknd.gen_folder, bknd.plants_to_replace, bknd.plants_list)
+        bknd.randomize_all_file_name(bknd.music_folder)
 
 
 def darklight_mode(background_list, widget_list):
@@ -153,7 +154,7 @@ background_element.append(frm_left)
 text_left = [
         "Randomize enemies",
         "Randomize fruits",
-        "Randomize plants",
+        "Randomize musics",
         "Randomize onions",
         "Open progression",
         "True Spice"
