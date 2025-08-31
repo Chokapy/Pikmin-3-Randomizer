@@ -25,6 +25,8 @@ def init_window():
 
 
 def randomize():
+    bknd.decompress_genfile(bknd.gen_folder)
+
     if var_left[0].get():
         bknd.randomize_all(bknd.gen_folder, bknd.enemies_to_replace, bknd.enemies_list)
         bknd.randomize_all(bknd.gen_folder, bknd.enemies_drop_to_replace, bknd.enemies_drop_list)
@@ -262,6 +264,6 @@ btn_randomize = Button(frm_bottom, text="RANDOMIZE", font=button_font, width=12,
 btn_randomize.pack(side=LEFT, padx=10)
 widget_element.append(btn_randomize)
 
-btn_pack = Button(frm_bottom, text="PACK", font=button_font, width=12, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
+btn_pack = Button(frm_bottom, text="PACK", font=button_font, width=12, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command= lambda:bknd.compress_genfile(bknd.gen_folder))
 btn_pack.pack(side=RIGHT, padx=10)
 widget_element.append(btn_pack)

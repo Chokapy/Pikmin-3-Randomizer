@@ -94,7 +94,7 @@
 		}
 	}
 	"no-spline"
-	"Kanitamaass"
+	"Kanitama"#drop
 	"0007"
 	"" "" ""
 	1 # Normal [0=false, 1=true]
@@ -938,7 +938,7 @@
 		}
 	}
 	"no-spline"
-	"Demejako"
+	"Demejako"#key
 	"0007"
 	"" "" ""
 	1 # Normal [0=false, 1=true]

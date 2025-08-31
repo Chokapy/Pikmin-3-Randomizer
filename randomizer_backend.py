@@ -8,7 +8,7 @@ Version : 2.0
 #import
 import os
 import random
-#from yaz0 import yaz0
+import yaz0
 
 #path
 mod_folder = "mod-file"
@@ -49,15 +49,16 @@ enemies_drop_list = ['"Amembo"#drop', '"Arikui"#drop', '"Awadako"#drop', '"Billy
                      '"MaroFrog"#drop']
 
 enemies_drop_to_replace = ['"Amembo"#drop', '"Arikui"#drop', '"Awadako"#drop', '"Billy"#drop', '"Buriko"#drop', '"Chappy"#drop',
-                           '"TentenChappy"#drop', '"CrystalFrog"#drop', '"Damagumo"#drop', '"Damagumo_Gold"#drop', '"Demejako"#drop',
-                           '"Egg"#drop', '"Frog"#drop', '"Futakuchi"#drop', '"YukiFutakuchi"#drop', '"HageDamagumo"#drop',
-                           '"HageDamagumo_Gold"#drop', '"Hambo"#drop', '"Iwakko"#drop', '"Jelly"#drop', '"Kaburi"#drop',
-                           '"Kajiokoshi"#drop', '"Kanitama"#drop', '"Karehambo"#drop', '"Kawasumi"#drop', '"Kemekuji"#drop',
-                           '"KingChappy"#drop', '"Kochappy"#drop', '"TenKochappy"#drop', '"Kokagami"#drop', '"KokagamiEgg"#drop',
-                           '"KumaChappy"#drop', '"KumaKochappy"#drop', '"Net"#drop', '"Mar"#drop', '"Mure"#drop', '"Mush"#drop',
-                           '"Namazu"#drop', '"Otama"#drop', '"Pelplant1"#drop', '"Pelplant5"#drop', '"Pelplant10"#drop',
-                           '"Sarai"#drop', '"Shako"#drop', '"YellowShijimi"#drop', '"Tobinko"#drop', '"Tobiuo"#drop', '"UjinkoA"#drop',
-                           '"UjinkoB"#drop', '"UjinkoC"#drop', '"MaroFrog"#drop']
+                     '"TentenChappy"#drop', '"CrystalFrog"#drop', '"Damagumo"#drop', '"Damagumo_Gold"#drop', '"Egg"#drop',
+                     '"Frog"#drop', '"Futakuchi"#drop', '"YukiFutakuchi"#drop', '"HageDamagumo"#drop', '"HageDamagumo_Gold"#drop',
+                     '"Hambo"#drop', '"Iwakko"#drop', '"Jelly"#drop', '"Kaburi"#drop', '"Kajiokoshi"#drop', '"Kanitama"#drop',
+                     '"Karehambo"#drop', '"Kawasumi"#drop', '"Kemekuji"#drop', '"KingChappy"#drop', '"Kochappy"#drop',
+                     '"TenKochappy"#drop', '"Kokagami"#drop', '"KokagamiEgg"#drop', '"KumaChappy"#drop', '"KumaKochappy"#drop',
+                     '"Net"#drop', '"Mar"#drop', '"Mure"#drop', '"Mush"#drop', '"Namazu"#drop', '"Otama"#drop', '"Pelplant1"#drop',
+                     '"Pelplant5"#drop', '"Pelplant10"#drop', '"Sarai"#drop', '"Shako"#drop', '"YellowShijimi"#drop', '"RedShijimi"#drop',
+                     '"WhiteShijimi"#drop', '"SnakeCrow"#drop', '"WaterTank"#drop', '"FireTank"#drop', '"BubbleTank"#drop',
+                     '"TobiKaburi"#drop', '"Tobinko"#drop', '"Tobiuo"#drop', '"UjinkoA"#drop', '"UjinkoB"#drop', '"UjinkoC"#drop',
+                     '"MaroFrog"#drop']
 
 #fruits
 fruits_list = ['"Apple"', '"Apricot"', '"Avocado"', '"Banana"', '"Cherry"', '"Dekopon"', '"Fig"', '"Gfruit"', '"Grape"',
@@ -88,37 +89,42 @@ def open_mod_folder():
     os.startfile(mod_folder)
 
 
+import re
+import random
+
 def randomize_file(path, replace, object_list):
     try:
-        #read the gen file
         with open(path, 'r', encoding='utf-8', errors='ignore') as file:
             lines = file.readlines()
+
         new_lines = []
-        #read each lign
         for line in lines:
-            #split word in the lign
-            words = line.split()
-            for i in range(len(words)):
-                #look if the word need to replace
-                if words[i] in replace:
-                    #chose a random element to replace with
-                    words[i] = random.choice(object_list)
-            new_lines.append(' '.join(words))
-        #replace with the new data
+            # split into words AND whitespace
+            parts = re.split(r'(\s+)', line)
+
+            for i, part in enumerate(parts):
+                if part in replace:
+                    parts[i] = random.choice(object_list)
+
+            new_lines.append(''.join(parts))  # rejoin without collapsing spaces
+
         with open(path, 'w', encoding='utf-8') as file:
-            file.write('\n'.join(new_lines))
+            file.writelines(new_lines)
+
         print(f"Edited file: {path}")
+
     except UnicodeDecodeError as e:
         print(f"Error reading {path}: {e}")
     except Exception as e:
         print(f"An error occurred with file {path}: {e}")
 
 
+
 def randomize_all(generator_folder, replace, object_list):
     for path, subdirs, files in os.walk(generator_folder):
         for name in files:
             #check if text file
-            if name.endswith('.txt'):
+            if name.endswith('.sarc'):
                 file_path = os.path.join(path, name)
                 #randomize the file
                 randomize_file(file_path, replace, object_list)
@@ -148,19 +154,28 @@ def randomize_all_file_name(folder_path):
 
 
 
-"""
+
 def decompress_szs(path):
-    with open(path, "rb") as infile:
-        yaz_obj = yaz0(inputobj=infile, compress=False)
-        output = yaz_obj.decompress()
-        with open(f"{path}.txt", "wb") as outfile:
-            outfile.write(output.getvalue())
+    print("Decompressing:", path)
+    with open(path, "rb") as f:
+        data = f.read()
+
+    decompressed = yaz0.yaz0_decompress(data)
+
+    # replace .szs with .sarc
+    base, _ = os.path.splitext(path)
+    out_path = base + ".sarc"
+
+    with open(out_path, "wb") as f:
+        f.write(decompressed)
+
+    print(f"Saved decompressed SARC -> {out_path}")
 
 
 def decompress_genfile(generator_folder):
     for path, subdirs, files in os.walk(generator_folder):
         for name in files:
-            #check if text file
+            #check if szs file
             if name.endswith('.szs'):
                 file_path = os.path.join(path, name)
                 #decompress the file
@@ -168,19 +183,34 @@ def decompress_genfile(generator_folder):
 
 
 def compress_szs(path):
-    with open(path, "rb") as infile:
-        yaz_obj = yaz0(inputobj=infile, compress=True)
-        output = yaz_obj.compress()
-        with open(f"{path}.szs", "wb") as outfile:
-            outfile.write(output.getvalue())
+    # Take your raw file (e.g. decompressed SARC, JSON, etc.)
+    with open(path, "rb") as f:
+        raw = f.read()
+
+    # Prevent double-compression
+    if raw.startswith(b"Yaz0"):
+        raise ValueError(f"{path} already looks Yaz0-compressed!")
+
+    compressed = yaz0.yaz0_compress(raw)
+
+    # Replace .sarc with .szs
+    base, _ = os.path.splitext(path)
+    out_path = base + ".szs"
+
+    with open(out_path, "wb") as f:
+        f.write(compressed)
+
+    # Optionally remove the old .sarc file
+    os.remove(path)
+
+    print(f"Compressed {path} -> {out_path} (removed original)")
 
 
 def compress_genfile(generator_folder):
     for path, subdirs, files in os.walk(generator_folder):
         for name in files:
-            #check if text file
-            if name.endswith('.txt'):
+            #check if sarc file
+            if name.endswith('.sarc'):
                 file_path = os.path.join(path, name)
                 #decompress the file
                 compress_szs(file_path)
-"""
