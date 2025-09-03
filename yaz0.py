@@ -1,102 +1,44 @@
+import struct
+
 def yaz0_decompress(data: bytes) -> bytes:
-    """Decompress Yaz0-compressed data (Nintendo format)."""
     if not data.startswith(b"Yaz0"):
-        raise ValueError("Input is not Yaz0-compressed (missing header)")
-
-    uncompressed_size = int.from_bytes(data[4:8], "big")  # target size
-    src_offset = 16  # skip Yaz0 header
-    dst = bytearray()
-    valid_bit_count = 0
-    code_byte = 0
-
-    while src_offset < len(data) and len(dst) < uncompressed_size:
+        raise ValueError("Not Yaz0-compressed")
+    uncompressed_size = int.from_bytes(data[4:8], "big")
+    src, dst = 16, bytearray()
+    valid_bit_count, code_byte = 0, 0
+    while src < len(data) and len(dst) < uncompressed_size:
         if valid_bit_count == 0:
-            if src_offset >= len(data):
-                break
-            code_byte = data[src_offset]
-            src_offset += 1
+            code_byte = data[src]; src += 1
             valid_bit_count = 8
-
-        if (code_byte & 0x80) != 0:
-            # Literal byte
-            if src_offset >= len(data):
-                break
-            dst.append(data[src_offset])
-            src_offset += 1
+        if code_byte & 0x80:
+            dst.append(data[src]); src += 1
         else:
-            # Compressed block
-            if src_offset + 1 >= len(data):
-                break
-            byte1 = data[src_offset]
-            byte2 = data[src_offset + 1]
-            src_offset += 2
-
+            byte1, byte2 = data[src], data[src+1]; src += 2
             dist = ((byte1 & 0xF) << 8) | byte2
             copy_src = len(dst) - (dist + 1)
-
-            length = byte1 >> 4
-            if length == 0:
-                if src_offset >= len(data):
-                    break
-                length = data[src_offset] + 0x12
-                src_offset += 1
-            else:
-                length += 2
-
+            length = (byte1 >> 4) + 2
+            if length == 2:
+                length = data[src] + 0x12; src += 1
             for _ in range(length):
-                if copy_src < 0 or copy_src >= len(dst):
-                    raise IndexError(
-                        f"Invalid back-reference: copy_src={copy_src}, dst_len={len(dst)}"
-                    )
-                dst.append(dst[copy_src])
-                copy_src += 1
-
-        code_byte <<= 1
-        valid_bit_count -= 1
-
-    if len(dst) != uncompressed_size:
-        print(
-            f"⚠️ Warning: decompressed size {len(dst)} "
-            f"!= expected {uncompressed_size}"
-        )
-
+                dst.append(dst[copy_src]); copy_src += 1
+        code_byte <<= 1; valid_bit_count -= 1
     return bytes(dst)
 
 
 def yaz0_compress(data: bytes) -> bytes:
-    """Compress data using Yaz0 (simple implementation)."""
-    import struct
-
     out = bytearray()
-    out.extend(b'Yaz0')                        # Magic
-    out.extend(struct.pack(">I", len(data)))   # Uncompressed size
-    out.extend(b'\x00' * 8)                    # Padding / reserved
-
-    src = 0
-    valid_bits = 0
-    code_byte = 0
-    chunk = bytearray()
-
+    out.extend(b"Yaz0")
+    out.extend(struct.pack(">I", len(data)))
+    out.extend(b"\x00" * 8)
+    src, valid_bits, code_byte, chunk = 0, 0, 0, bytearray()
     while src < len(data):
         if valid_bits == 8:
-            # Flush
-            out.append(code_byte)
-            out.extend(chunk)
-            code_byte = 0
-            chunk.clear()
-            valid_bits = 0
-
-        # For simplicity: no fancy pattern search, just store as literal
+            out.append(code_byte); out.extend(chunk)
+            code_byte, chunk, valid_bits = 0, bytearray(), 0
         code_byte = (code_byte << 1) | 1
-        chunk.append(data[src])
-        src += 1
-        valid_bits += 1
-
-    # Flush leftover
+        chunk.append(data[src]); src += 1; valid_bits += 1
     code_byte <<= (8 - valid_bits)
-    out.append(code_byte)
-    out.extend(chunk)
-
+    out.append(code_byte); out.extend(chunk)
     return bytes(out)
 
 

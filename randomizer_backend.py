@@ -8,6 +8,8 @@ Version : 2.0
 #import
 import os
 import random
+import struct
+import re
 import yaz0
 
 #path
@@ -17,59 +19,72 @@ music_folder = "mod-file/Pikmin3randomizer/Romfs/CMCmn/audio/audiores/stream"
 
 #-----object list-----
 #enemies
-enemies_list = ['"Amembo"', '"Arikui"', '"Awadako"', '"Billy"', '"Buriko"', '"Chappy"', '"TentenChappy"', '"CrystalFrog"',
-                '"Damagumo"', '"Damagumo_Gold"', '"Egg"', '"Frog"', '"Futakuchi"', '"YukiFutakuchi"', '"HageDamagumo"',
-                '"HageDamagumo_Gold"', '"Hambo"', '"Hiba"', '"Iwakko"', '"Jelly"', '"Kaburi"', '"Kajiokoshi"', '"Kanitama"',
-                '"Karehambo"', '"Kawasumi"', '"Kemekuji"', '"KingChappy"', '"Kochappy"', '"TenKochappy"', '"Kogane"',
-                '"Kokagami"', '"KokagamiEgg"', '"KumaChappy"', '"KumaKochappy"', '"Net"', '"Mar"', '"Mure"', '"Mush"',
-                '"Namazu"', '"Otama"', '"Pelplant1"', '"Pelplant5"', '"Pelplant10"', '"Sarai"', '"Shako"', '"YellowShijimi"',
-                '"RedShijimi"', '"WhiteShijimi"', '"SnakeCrow"', '"WaterTank"', '"FireTank"', '"BubbleTank"', '"TobiKaburi"',
-                '"Tobinko"', '"Tobiuo"', '"Tsuyukusa"', '"UjinkoA"', '"UjinkoB"', '"UjinkoC"', '"Yamma"', '"MaroFrog"']
+enemies_list = [
+    b"Amembo", b"Arikui", b"Awadako", b"Billy", b"Buriko", b"Chappy", b"TentenChappy", b"CrystalFrog",
+    b"Damagumo", b"Damagumo_Gold", b"Egg", b"Frog", b"Futakuchi", b"YukiFutakuchi", b"HageDamagumo",
+    b"HageDamagumo_Gold", b"Hambo", b"Hiba", b"Iwakko", b"Jelly", b"Kaburi", b"Kajiokoshi", b"Kanitama",
+    b"Karehambo", b"Kawasumi", b"Kemekuji", b"KingChappy", b"Kochappy", b"TenKochappy", b"Kogane",
+    b"Kokagami", b"KokagamiEgg", b"KumaChappy", b"KumaKochappy", b"Net", b"Mar", b"Mure", b"Mush",
+    b"Namazu", b"Otama", b"Pelplant1", b"Pelplant5", b"Pelplant10", b"Sarai", b"Shako", b"YellowShijimi",
+    b"RedShijimi", b"WhiteShijimi", b"SnakeCrow", b"WaterTank", b"FireTank", b"BubbleTank", b"TobiKaburi",
+    b"Tobinko", b"Tobiuo", b"Tsuyukusa", b"UjinkoA", b"UjinkoB", b"UjinkoC", b"Yamma", b"MaroFrog"
+]
 
-enemies_to_replace = ['"Amembo"', '"Arikui"', '"Awadako"', '"Billy"', '"Buriko"', '"Chappy"', '"TentenChappy"', '"CrystalFrog"',
-                '"Damagumo"', '"Damagumo_Gold"', '"Demejako"', '"Egg"', '"Frog"', '"Futakuchi"', '"YukiFutakuchi"', '"HageDamagumo"',
-                '"HageDamagumo_Gold"', '"Hambo"', '"Hiba"', '"Iwakko"', '"Jelly"', '"Kaburi"', '"Kajiokoshi"', '"Kanitama"',
-                '"Karehambo"', '"Kawasumi"', '"Kemekuji"', '"KingChappy"', '"Kochappy"', '"TenKochappy"', '"Kogane"',
-                '"Kokagami"', '"KokagamiEgg"', '"KumaChappy"', '"KumaKochappy"', '"Net"', '"Mar"', '"Mure"', '"Mush"',
-                '"Namazu"', '"Otama"', '"Pelplant1"', '"Pelplant5"', '"Pelplant10"', '"Sarai"', '"Shako"', '"YellowShijimi"',
-                '"RedShijimi"', '"WhiteShijimi"', '"SnakeCrow"', '"WaterTank"', '"FireTank"', '"BubbleTank"', '"TobiKaburi"',
-                '"Tobinko"', '"Tobiuo"', '"Tsuyukusa"', '"UjinkoA"', '"UjinkoB"', '"UjinkoC"', '"Yamma"', '"MaroFrog"']
+# Enemies to replace
+enemies_to_replace = [
+    b"Amembo", b"Arikui", b"Awadako", b"Billy", b"Buriko", b"Chappy", b"TentenChappy", b"CrystalFrog",
+    b"Damagumo", b"Damagumo_Gold", b"Demejako", b"Egg", b"Frog", b"Futakuchi", b"YukiFutakuchi", b"HageDamagumo",
+    b"HageDamagumo_Gold", b"Hambo", b"Hiba", b"Iwakko", b"Jelly", b"Kaburi", b"Kajiokoshi", b"Kanitama",
+    b"Karehambo", b"Kawasumi", b"Kemekuji", b"KingChappy", b"Kochappy", b"TenKochappy", b"Kogane",
+    b"Kokagami", b"KokagamiEgg", b"KumaChappy", b"KumaKochappy", b"Net", b"Mar", b"Mure", b"Mush",
+    b"Namazu", b"Otama", b"Pelplant1", b"Pelplant5", b"Pelplant10", b"Sarai", b"Shako", b"YellowShijimi",
+    b"RedShijimi", b"WhiteShijimi", b"SnakeCrow", b"WaterTank", b"FireTank", b"BubbleTank", b"TobiKaburi",
+    b"Tobinko", b"Tobiuo", b"Tsuyukusa", b"UjinkoA", b"UjinkoB", b"UjinkoC", b"Yamma", b"MaroFrog"
+]
 
-#enemies drop
-enemies_drop_list = ['"Amembo"#drop', '"Arikui"#drop', '"Awadako"#drop', '"Billy"#drop', '"Buriko"#drop', '"Chappy"#drop',
-                     '"TentenChappy"#drop', '"CrystalFrog"#drop', '"Damagumo"#drop', '"Damagumo_Gold"#drop', '"Egg"#drop',
-                     '"Frog"#drop', '"Futakuchi"#drop', '"YukiFutakuchi"#drop', '"HageDamagumo"#drop', '"HageDamagumo_Gold"#drop',
-                     '"Hambo"#drop', '"Iwakko"#drop', '"Jelly"#drop', '"Kaburi"#drop', '"Kajiokoshi"#drop', '"Kanitama"#drop',
-                     '"Karehambo"#drop', '"Kawasumi"#drop', '"Kemekuji"#drop', '"KingChappy"#drop', '"Kochappy"#drop',
-                     '"TenKochappy"#drop', '"Kokagami"#drop', '"KokagamiEgg"#drop', '"KumaChappy"#drop', '"KumaKochappy"#drop',
-                     '"Net"#drop', '"Mar"#drop', '"Mure"#drop', '"Mush"#drop', '"Namazu"#drop', '"Otama"#drop', '"Pelplant1"#drop',
-                     '"Pelplant5"#drop', '"Pelplant10"#drop', '"Sarai"#drop', '"Shako"#drop', '"YellowShijimi"#drop', '"RedShijimi"#drop',
-                     '"WhiteShijimi"#drop', '"SnakeCrow"#drop', '"WaterTank"#drop', '"FireTank"#drop', '"BubbleTank"#drop',
-                     '"TobiKaburi"#drop', '"Tobinko"#drop', '"Tobiuo"#drop', '"UjinkoA"#drop', '"UjinkoB"#drop', '"UjinkoC"#drop',
-                     '"MaroFrog"#drop']
+# Enemies drop
+enemies_drop_list = [
+    b"Amembo#drop", b"Arikui#drop", b"Awadako#drop", b"Billy#drop", b"Buriko#drop", b"Chappy#drop",
+    b"TentenChappy#drop", b"CrystalFrog#drop", b"Damagumo#drop", b"Damagumo_Gold#drop", b"Egg#drop",
+    b"Frog#drop", b"Futakuchi#drop", b"YukiFutakuchi#drop", b"HageDamagumo#drop", b"HageDamagumo_Gold#drop",
+    b"Hambo#drop", b"Iwakko#drop", b"Jelly#drop", b"Kaburi#drop", b"Kajiokoshi#drop", b"Kanitama#drop",
+    b"Karehambo#drop", b"Kawasumi#drop", b"Kemekuji#drop", b"KingChappy#drop", b"Kochappy#drop",
+    b"TenKochappy#drop", b"Kokagami#drop", b"KokagamiEgg#drop", b"KumaChappy#drop", b"KumaKochappy#drop",
+    b"Net#drop", b"Mar#drop", b"Mure#drop", b"Mush#drop", b"Namazu#drop", b"Otama#drop", b"Pelplant1#drop",
+    b"Pelplant5#drop", b"Pelplant10#drop", b"Sarai#drop", b"Shako#drop", b"YellowShijimi#drop", b"RedShijimi#drop",
+    b"WhiteShijimi#drop", b"SnakeCrow#drop", b"WaterTank#drop", b"FireTank#drop", b"BubbleTank#drop",
+    b"TobiKaburi#drop", b"Tobinko#drop", b"Tobiuo#drop", b"UjinkoA#drop", b"UjinkoB#drop", b"UjinkoC#drop",
+    b"MaroFrog#drop"
+]
 
-enemies_drop_to_replace = ['"Amembo"#drop', '"Arikui"#drop', '"Awadako"#drop', '"Billy"#drop', '"Buriko"#drop', '"Chappy"#drop',
-                     '"TentenChappy"#drop', '"CrystalFrog"#drop', '"Damagumo"#drop', '"Damagumo_Gold"#drop', '"Egg"#drop',
-                     '"Frog"#drop', '"Futakuchi"#drop', '"YukiFutakuchi"#drop', '"HageDamagumo"#drop', '"HageDamagumo_Gold"#drop',
-                     '"Hambo"#drop', '"Iwakko"#drop', '"Jelly"#drop', '"Kaburi"#drop', '"Kajiokoshi"#drop', '"Kanitama"#drop',
-                     '"Karehambo"#drop', '"Kawasumi"#drop', '"Kemekuji"#drop', '"KingChappy"#drop', '"Kochappy"#drop',
-                     '"TenKochappy"#drop', '"Kokagami"#drop', '"KokagamiEgg"#drop', '"KumaChappy"#drop', '"KumaKochappy"#drop',
-                     '"Net"#drop', '"Mar"#drop', '"Mure"#drop', '"Mush"#drop', '"Namazu"#drop', '"Otama"#drop', '"Pelplant1"#drop',
-                     '"Pelplant5"#drop', '"Pelplant10"#drop', '"Sarai"#drop', '"Shako"#drop', '"YellowShijimi"#drop', '"RedShijimi"#drop',
-                     '"WhiteShijimi"#drop', '"SnakeCrow"#drop', '"WaterTank"#drop', '"FireTank"#drop', '"BubbleTank"#drop',
-                     '"TobiKaburi"#drop', '"Tobinko"#drop', '"Tobiuo"#drop', '"UjinkoA"#drop', '"UjinkoB"#drop', '"UjinkoC"#drop',
-                     '"MaroFrog"#drop']
+enemies_drop_to_replace = [
+    b"Amembo#drop", b"Arikui#drop", b"Awadako#drop", b"Billy#drop", b"Buriko#drop", b"Chappy#drop",
+    b"TentenChappy#drop", b"CrystalFrog#drop", b"Damagumo#drop", b"Damagumo_Gold#drop", b"Egg#drop",
+    b"Frog#drop", b"Futakuchi#drop", b"YukiFutakuchi#drop", b"HageDamagumo#drop", b"HageDamagumo_Gold#drop",
+    b"Hambo#drop", b"Iwakko#drop", b"Jelly#drop", b"Kaburi#drop", b"Kajiokoshi#drop", b"Kanitama#drop",
+    b"Karehambo#drop", b"Kawasumi#drop", b"Kemekuji#drop", b"KingChappy#drop", b"Kochappy#drop",
+    b"TenKochappy#drop", b"Kokagami#drop", b"KokagamiEgg#drop", b"KumaChappy#drop", b"KumaKochappy#drop",
+    b"Net#drop", b"Mar#drop", b"Mure#drop", b"Mush#drop", b"Namazu#drop", b"Otama#drop", b"Pelplant1#drop",
+    b"Pelplant5#drop", b"Pelplant10#drop", b"Sarai#drop", b"Shako#drop", b"YellowShijimi#drop", b"RedShijimi#drop",
+    b"WhiteShijimi#drop", b"SnakeCrow#drop", b"WaterTank#drop", b"FireTank#drop", b"BubbleTank#drop",
+    b"TobiKaburi#drop", b"Tobinko#drop", b"Tobiuo#drop", b"UjinkoA#drop", b"UjinkoB#drop", b"UjinkoC#drop",
+    b"MaroFrog#drop"
+]
 
-#fruits
-fruits_list = ['"Apple"', '"Apricot"', '"Avocado"', '"Banana"', '"Cherry"', '"Dekopon"', '"Fig"', '"Gfruit"', '"Grape"',
-               '"Kiwi"', '"KiwiGold"', '"Lemon"', '"Lime"', '"Loquat"', '"Mango"', '"Mangosteen"', '"Melon"', '"Mikan"',
-               '"Muscat"', '"Nashi"', '"Papaya"', '"Peach"', '"Pear"', '"Persimmon"', '"Pitaya"', '"Plum"', '"Raspberry"',
-               '"StarFruit"', '"Strawberry"', '"WaterMelon"']
+# Fruits
+fruits_list = [
+    b"Apple", b"Apricot", b"Avocado", b"Banana", b"Cherry", b"Dekopon", b"Fig", b"Gfruit", b"Grape",
+    b"Kiwi", b"KiwiGold", b"Lemon", b"Lime", b"Loquat", b"Mango", b"Mangosteen", b"Melon", b"Mikan",
+    b"Muscat", b"Nashi", b"Papaya", b"Peach", b"Pear", b"Persimmon", b"Pitaya", b"Plum", b"Raspberry",
+    b"StarFruit", b"Strawberry", b"WaterMelon"
+]
 
-fruits_to_replace = ['"Apple"', '"Apricot"', '"Avocado"', '"Banana"', '"Cherry"', '"Dekopon"', '"Fig"', '"Gfruit"', '"Grape"',
-               '"Kiwi"', '"KiwiGold"', '"Lemon"', '"Lime"', '"Loquat"', '"Mango"', '"Mangosteen"', '"Mikan"',
-               '"Muscat"', '"Nashi"', '"Papaya"', '"Peach"', '"Pear"', '"Persimmon"', '"Pitaya"', '"Plum"', '"Raspberry"',
-               '"StarFruit"', '"Strawberry"', '"WaterMelon"']
+fruits_to_replace = [
+    b"Apple", b"Apricot", b"Avocado", b"Banana", b"Cherry", b"Dekopon", b"Fig", b"Gfruit", b"Grape",
+    b"Kiwi", b"KiwiGold", b"Lemon", b"Lime", b"Loquat", b"Mango", b"Mangosteen", b"Melon", b"Mikan",
+    b"Muscat", b"Nashi", b"Papaya", b"Peach", b"Pear", b"Persimmon", b"Pitaya", b"Plum", b"Raspberry",
+    b"StarFruit", b"Strawberry", b"WaterMelon"
+]
 
 #color pallet
 dark_mode = {
@@ -89,35 +104,119 @@ def open_mod_folder():
     os.startfile(mod_folder)
 
 
-import re
-import random
+# --- helpers ---
+def read_u16(d,o,be): return struct.unpack_from(">H" if be else "<H", d,o)[0]
+def read_u32(d,o,be): return struct.unpack_from(">I" if be else "<I", d,o)[0]
+def write_u32(buf,o,val,be): struct.pack_into(">I" if be else "<I", buf,o,val)
 
-def randomize_file(path, replace, object_list):
-    try:
-        with open(path, 'r', encoding='utf-8', errors='ignore') as file:
-            lines = file.readlines()
 
-        new_lines = []
-        for line in lines:
-            # split into words AND whitespace
-            parts = re.split(r'(\s+)', line)
+def parse_sarc(raw: bytes):
+    assert raw[:4]==b"SARC","Not a SARC"
+    be=(read_u16(raw,6,True)==0xFEFF)
+    header_size=read_u16(raw,4,True)
+    data_off=read_u32(raw,12,be)
+    version=read_u16(raw,16,be)
+    off_sfat=raw.find(b"SFAT",0,0x400)
+    node_count=read_u16(raw,off_sfat+6,be)
+    hash_key=read_u32(raw,off_sfat+8,be)
+    sfat_header_size=read_u16(raw,off_sfat+4,be)
+    nodes_off=off_sfat+sfat_header_size
+    node_bytes,nodes=[],[]
+    for i in range(node_count):
+        o=nodes_off+0x10*i
+        node_bytes.append(bytearray(raw[o:o+0x10]))
+        start,end=read_u32(raw,o+8,be),read_u32(raw,o+12,be)
+        nodes.append((start,end))
+    off_sfnt=raw.find(b"SFNT",0,0x2000)
+    sfnt_block=raw[off_sfnt:data_off]
+    files=[bytearray(raw[data_off+s:data_off+e]) for s,e in nodes]
+    return dict(be=be,header_size=header_size,data_off=data_off,
+                version=version,hash_key=hash_key,
+                node_bytes=node_bytes,files=files,sfnt_block=bytearray(sfnt_block))
 
-            for i, part in enumerate(parts):
-                if part in replace:
-                    parts[i] = random.choice(object_list)
 
-            new_lines.append(''.join(parts))  # rejoin without collapsing spaces
+def rebuild_sarc(meta,new_files):
+    be=meta["be"]; new_data=bytearray(); new_nodes=[]
+    for f in new_files:
+        s=len(new_data); new_data+=f; e=len(new_data)
+        pad=(4-(e&3))&3; new_data+=b"\x00"*pad; e+=pad
+        new_nodes.append((s,e))
+    out=bytearray(b"SARC")
+    out+=struct.pack(">H",meta["header_size"])
+    out+=struct.pack(">H",0xFEFF if be else 0xFFFE)
+    out+=b"\x00\x00\x00\x00"
+    sfat_header=bytearray(b"SFAT")
+    sfat_header+=struct.pack(">H" if be else "<H",0x0C)
+    sfat_header+=struct.pack(">H" if be else "<H",len(new_nodes))
+    sfat_header+=struct.pack(">I" if be else "<I",meta["hash_key"])
+    node_blob=bytearray()
+    for i,node16 in enumerate(meta["node_bytes"]):
+        s,e=new_nodes[i]
+        write_u32(node16,8,s,be); write_u32(node16,12,e,be)
+        node_blob+=node16
+    sfat_block=sfat_header+node_blob
+    sfnt_block=bytes(meta["sfnt_block"])
+    data_off=0x14+len(sfat_block)+len(sfnt_block)
+    out+=struct.pack(">I" if be else "<I",data_off)
+    out+=struct.pack(">H" if be else "<H",meta["version"])
+    out+=b"\x00\x00"
+    out+=sfat_block+sfnt_block+new_data
+    write_u32(out,8,len(out),be)
+    return bytes(out)
 
-        with open(path, 'w', encoding='utf-8') as file:
-            file.writelines(new_lines)
 
-        print(f"Edited file: {path}")
 
-    except UnicodeDecodeError as e:
-        print(f"Error reading {path}: {e}")
-    except Exception as e:
-        print(f"An error occurred with file {path}: {e}")
+def randomize_bytes(buf: bytearray, replace_list: list[bytes], pool: list[bytes]) -> bytearray:
+    """
+    Randomize only quoted words (like "Arikui").
+    Each occurrence randomized independently.
+    """
+    text = buf.decode("utf-8", errors="ignore")
 
+    # Build regex of all words you want to replace
+    words_pattern = "|".join(re.escape(w.decode()) for w in sorted(replace_list, key=len, reverse=True))
+    pattern = re.compile(r'"(' + words_pattern + r')"')
+
+    def replacer(match):
+        old = match.group(1).encode()
+        candidates = [c for c in pool if c != old]
+        if not candidates:
+            return match.group(0)
+        new = random.choice(candidates).decode()
+        return f'"{new}"'
+
+    new_text = pattern.sub(replacer, text)
+    return bytearray(new_text, "utf-8")
+
+
+# --- main function ---
+def randomize_file(path: str, replace_list: list[bytes], object_list: list[bytes], out_path: str|None=None):
+    """
+    Randomize a SARC archive by replacing occurrences of bytes in replace_list
+    with random choices from object_list. Works with variable-length replacements.
+
+    :param path: Path to input .sarc file
+    :param replace_list: List of byte strings to replace
+    :param object_list: Pool of byte strings to pick from
+    :param out_path: Optional output file path (defaults to overwriting `path`)
+    :return: Bytes of the new randomized SARC
+    """
+    with open(path, "rb") as f:
+        data = f.read()
+
+    meta = parse_sarc(data)
+    new_files = [randomize_bytes(f, replace_list, object_list) for f in meta["files"]]
+    rebuilt = rebuild_sarc(meta, new_files)
+
+    # Default: overwrite the input file
+    if out_path is None:
+        out_path = path
+
+    with open(out_path, "wb") as f:
+        f.write(rebuilt)
+
+    print(f"✅ Randomized SARC written to: {out_path}")
+    return rebuilt
 
 
 def randomize_all(generator_folder, replace, object_list):
@@ -151,8 +250,6 @@ def randomize_all_file_name(folder_path):
         new_name = new_base + os.path.splitext(temp_file)[1]
         os.rename(os.path.join(folder_path, temp_file), os.path.join(folder_path, new_name))
         print(f"{temp_file} → {new_name}")
-
-
 
 
 def decompress_szs(path):
