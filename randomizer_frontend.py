@@ -29,7 +29,7 @@ def randomize():
 
     if var_left[0].get():
         bknd.randomize_all(bknd.gen_folder, bknd.enemies_to_replace, bknd.enemies_list)
-        bknd.randomize_all(bknd.gen_folder, bknd.enemies_drop_to_replace, bknd.enemies_drop_list)
+        bknd.randomize_all(bknd.gen_folder, bknd.enemies_drop_to_replace, bknd.enemies_drop_list, tag = "#drop")
 
     if var_left[1].get():
         bknd.randomize_all(bknd.gen_folder, bknd.fruits_to_replace, bknd.fruits_list)

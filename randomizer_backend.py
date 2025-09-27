@@ -27,7 +27,7 @@ enemies_list = [
     b"Kokagami", b"KokagamiEgg", b"KumaChappy", b"KumaKochappy", b"Net", b"Mar", b"Mure", b"Mush",
     b"Namazu", b"Otama", b"Pelplant1", b"Pelplant5", b"Pelplant10", b"Sarai", b"Shako", b"YellowShijimi",
     b"RedShijimi", b"WhiteShijimi", b"SnakeCrow", b"WaterTank", b"FireTank", b"BubbleTank", b"TobiKaburi",
-    b"Tobinko", b"Tobiuo", b"Tsuyukusa", b"UjinkoA", b"UjinkoB", b"UjinkoC", b"Yamma", b"MaroFrog"
+    b"Tobinko", b"Tobiuo", b"Tsuyukusa", b"UjinkoA", b"UjinkoB", b"UjinkoC", b"MaroFrog"
 ]
 
 # Enemies to replace
@@ -44,44 +44,44 @@ enemies_to_replace = [
 
 # Enemies drop
 enemies_drop_list = [
-    b"Amembo#drop", b"Arikui#drop", b"Awadako#drop", b"Billy#drop", b"Buriko#drop", b"Chappy#drop",
-    b"TentenChappy#drop", b"CrystalFrog#drop", b"Damagumo#drop", b"Damagumo_Gold#drop", b"Egg#drop",
-    b"Frog#drop", b"Futakuchi#drop", b"YukiFutakuchi#drop", b"HageDamagumo#drop", b"HageDamagumo_Gold#drop",
-    b"Hambo#drop", b"Iwakko#drop", b"Jelly#drop", b"Kaburi#drop", b"Kajiokoshi#drop", b"Kanitama#drop",
-    b"Karehambo#drop", b"Kawasumi#drop", b"Kemekuji#drop", b"KingChappy#drop", b"Kochappy#drop",
-    b"TenKochappy#drop", b"Kokagami#drop", b"KokagamiEgg#drop", b"KumaChappy#drop", b"KumaKochappy#drop",
-    b"Net#drop", b"Mar#drop", b"Mure#drop", b"Mush#drop", b"Namazu#drop", b"Otama#drop", b"Pelplant1#drop",
-    b"Pelplant5#drop", b"Pelplant10#drop", b"Sarai#drop", b"Shako#drop", b"YellowShijimi#drop", b"RedShijimi#drop",
-    b"WhiteShijimi#drop", b"SnakeCrow#drop", b"WaterTank#drop", b"FireTank#drop", b"BubbleTank#drop",
-    b"TobiKaburi#drop", b"Tobinko#drop", b"Tobiuo#drop", b"UjinkoA#drop", b"UjinkoB#drop", b"UjinkoC#drop",
-    b"MaroFrog#drop"
+    b"Amembo", b"Arikui", b"Awadako", b"Billy", b"Buriko", b"Chappy",
+    b"TentenChappy", b"CrystalFrog", b"Damagumo", b"Damagumo_Gold", b"Egg",
+    b"Frog", b"Futakuchi", b"YukiFutakuchi", b"HageDamagumo", b"HageDamagumo_Gold",
+    b"Hambo", b"Iwakko", b"Jelly", b"Kaburi", b"Kajiokoshi", b"Kanitama",
+    b"Karehambo", b"Kawasumi", b"Kemekuji", b"KingChappy", b"Kochappy",
+    b"TenKochappy", b"Kokagami", b"KokagamiEgg", b"KumaChappy", b"KumaKochappy",
+    b"Net", b"Mar", b"Mure", b"Mush", b"Namazu", b"Otama", b"Pelplant1",
+    b"Pelplant5", b"Pelplant10", b"Sarai", b"Shako", b"YellowShijimi", b"RedShijimi",
+    b"WhiteShijimi", b"SnakeCrow", b"WaterTank", b"FireTank", b"BubbleTank",
+    b"TobiKaburi", b"Tobinko", b"Tobiuo", b"UjinkoA", b"UjinkoB", b"UjinkoC",
+    b"MaroFrog"
 ]
 
 enemies_drop_to_replace = [
-    b"Amembo#drop", b"Arikui#drop", b"Awadako#drop", b"Billy#drop", b"Buriko#drop", b"Chappy#drop",
-    b"TentenChappy#drop", b"CrystalFrog#drop", b"Damagumo#drop", b"Damagumo_Gold#drop", b"Egg#drop",
-    b"Frog#drop", b"Futakuchi#drop", b"YukiFutakuchi#drop", b"HageDamagumo#drop", b"HageDamagumo_Gold#drop",
-    b"Hambo#drop", b"Iwakko#drop", b"Jelly#drop", b"Kaburi#drop", b"Kajiokoshi#drop", b"Kanitama#drop",
-    b"Karehambo#drop", b"Kawasumi#drop", b"Kemekuji#drop", b"KingChappy#drop", b"Kochappy#drop",
-    b"TenKochappy#drop", b"Kokagami#drop", b"KokagamiEgg#drop", b"KumaChappy#drop", b"KumaKochappy#drop",
-    b"Net#drop", b"Mar#drop", b"Mure#drop", b"Mush#drop", b"Namazu#drop", b"Otama#drop", b"Pelplant1#drop",
-    b"Pelplant5#drop", b"Pelplant10#drop", b"Sarai#drop", b"Shako#drop", b"YellowShijimi#drop", b"RedShijimi#drop",
-    b"WhiteShijimi#drop", b"SnakeCrow#drop", b"WaterTank#drop", b"FireTank#drop", b"BubbleTank#drop",
-    b"TobiKaburi#drop", b"Tobinko#drop", b"Tobiuo#drop", b"UjinkoA#drop", b"UjinkoB#drop", b"UjinkoC#drop",
-    b"MaroFrog#drop"
+    b"Amembo", b"Arikui", b"Awadako", b"Billy", b"Buriko", b"Chappy",
+    b"TentenChappy", b"CrystalFrog", b"Damagumo", b"Damagumo_Gold", b"Egg",
+    b"Frog", b"Futakuchi", b"YukiFutakuchi", b"HageDamagumo", b"HageDamagumo_Gold",
+    b"Hambo", b"Iwakko", b"Jelly", b"Kaburi", b"Kajiokoshi", b"Kanitama",
+    b"Karehambo", b"Kawasumi", b"Kemekuji", b"KingChappy", b"Kochappy",
+    b"TenKochappy", b"Kokagami", b"KokagamiEgg", b"KumaChappy", b"KumaKochappy",
+    b"Net", b"Mar", b"Mure", b"Mush", b"Namazu", b"Otama", b"Pelplant1",
+    b"Pelplant5", b"Pelplant10", b"Sarai", b"Shako", b"YellowShijimi", b"RedShijimi",
+    b"WhiteShijimi", b"SnakeCrow", b"WaterTank", b"FireTank", b"BubbleTank",
+    b"TobiKaburi", b"Tobinko", b"Tobiuo", b"UjinkoA", b"UjinkoB", b"UjinkoC",
+    b"MaroFrog"
 ]
 
 # Fruits
 fruits_list = [
-    b"Apple", b"Apricot", b"Avocado", b"Banana", b"Cherry", b"Dekopon", b"Fig", b"Gfruit", b"Grape",
+    b"Apple", b"Apricot", b"Avocado", b"Banana", b"Cherry", b"Dekopon", b"Fig", b"Gfruit",
     b"Kiwi", b"KiwiGold", b"Lemon", b"Lime", b"Loquat", b"Mango", b"Mangosteen", b"Melon", b"Mikan",
-    b"Muscat", b"Nashi", b"Papaya", b"Peach", b"Pear", b"Persimmon", b"Pitaya", b"Plum", b"Raspberry",
+    b"Nashi", b"Papaya", b"Peach", b"Pear", b"Persimmon", b"Pitaya", b"Plum", b"Raspberry",
     b"StarFruit", b"Strawberry", b"WaterMelon"
 ]
 
 fruits_to_replace = [
     b"Apple", b"Apricot", b"Avocado", b"Banana", b"Cherry", b"Dekopon", b"Fig", b"Gfruit", b"Grape",
-    b"Kiwi", b"KiwiGold", b"Lemon", b"Lime", b"Loquat", b"Mango", b"Mangosteen", b"Melon", b"Mikan",
+    b"Kiwi", b"KiwiGold", b"Lemon", b"Lime", b"Loquat", b"Mango", b"Mangosteen", b"Mikan",
     b"Muscat", b"Nashi", b"Papaya", b"Peach", b"Pear", b"Persimmon", b"Pitaya", b"Plum", b"Raspberry",
     b"StarFruit", b"Strawberry", b"WaterMelon"
 ]
@@ -165,17 +165,20 @@ def rebuild_sarc(meta,new_files):
     return bytes(out)
 
 
-
-def randomize_bytes(buf: bytearray, replace_list: list[bytes], pool: list[bytes]) -> bytearray:
-    """
-    Randomize only quoted words (like "Arikui").
-    Each occurrence randomized independently.
-    """
+def randomize_bytes(buf: bytearray, replace_list: list[bytes], pool: list[bytes], tag: str | None = None) -> bytearray:
     text = buf.decode("utf-8", errors="ignore")
 
-    # Build regex of all words you want to replace
-    words_pattern = "|".join(re.escape(w.decode()) for w in sorted(replace_list, key=len, reverse=True))
-    pattern = re.compile(r'"(' + words_pattern + r')"')
+    # Decode replace_list into strings
+    replace_words = [w.decode() for w in replace_list]
+
+    if tag:
+        # Match only quoted words followed by the tag
+        words_pattern = "|".join(re.escape(w) for w in replace_words)
+        pattern = re.compile(r'"(' + words_pattern + r')"' + re.escape(tag))
+    else:
+        # Match only quoted words without a tag after
+        words_pattern = "|".join(re.escape(w) for w in replace_words)
+        pattern = re.compile(r'"(' + words_pattern + r')"(?!#)')
 
     def replacer(match):
         old = match.group(1).encode()
@@ -183,14 +186,18 @@ def randomize_bytes(buf: bytearray, replace_list: list[bytes], pool: list[bytes]
         if not candidates:
             return match.group(0)
         new = random.choice(candidates).decode()
-        return f'"{new}"'
+
+        if tag:
+            return f'"{new}"{tag}'
+        else:
+            return f'"{new}"'
 
     new_text = pattern.sub(replacer, text)
     return bytearray(new_text, "utf-8")
 
 
 # --- main function ---
-def randomize_file(path: str, replace_list: list[bytes], object_list: list[bytes], out_path: str|None=None):
+def randomize_file(path: str, replace_list: list[bytes], object_list: list[bytes], tag: str, out_path: str|None=None):
     """
     Randomize a SARC archive by replacing occurrences of bytes in replace_list
     with random choices from object_list. Works with variable-length replacements.
@@ -199,13 +206,14 @@ def randomize_file(path: str, replace_list: list[bytes], object_list: list[bytes
     :param replace_list: List of byte strings to replace
     :param object_list: Pool of byte strings to pick from
     :param out_path: Optional output file path (defaults to overwriting `path`)
+    :param tag: None
     :return: Bytes of the new randomized SARC
     """
     with open(path, "rb") as f:
         data = f.read()
 
     meta = parse_sarc(data)
-    new_files = [randomize_bytes(f, replace_list, object_list) for f in meta["files"]]
+    new_files = [randomize_bytes(f, replace_list, object_list, tag) for f in meta["files"]]
     rebuilt = rebuild_sarc(meta, new_files)
 
     # Default: overwrite the input file
@@ -219,14 +227,14 @@ def randomize_file(path: str, replace_list: list[bytes], object_list: list[bytes
     return rebuilt
 
 
-def randomize_all(generator_folder, replace, object_list):
+def randomize_all(generator_folder, replace, object_list, tag: str | None = None):
     for path, subdirs, files in os.walk(generator_folder):
         for name in files:
             #check if text file
             if name.endswith('.sarc'):
                 file_path = os.path.join(path, name)
                 #randomize the file
-                randomize_file(file_path, replace, object_list)
+                randomize_file(file_path, replace, object_list, tag)
 
 
 def randomize_all_file_name(folder_path):
