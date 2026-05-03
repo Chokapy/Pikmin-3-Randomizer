@@ -1,137 +1,36 @@
-"""
-Program name : randomizer_frontend.py
-Author : Chokapi
-Date : 08.04.2025
-Modif : 11.04.2025
-Version : 2.0
-"""
-#import of the backend
-import randomizer_backend as bknd
+from customtkinter import *
 
-#import of tkinter
-from tkinter import *
-from tkinter import messagebox
+default_font = ("TkDefaultFont", 20, "bold")
+button_font = ("TkDefaultFont", 30, "bold")
 
-#variable
-normal_font = 'TkDefaultFont 12'
-button_font = 'TkDefaultFont 20'
-
-current_mode = "dark"
-
-background_element = []
-widget_element = []
-
-def init_window():
-    window.mainloop()
-
-
-def randomize():
-    bknd.decompress_genfile(bknd.gen_folder)
-
-    if var_left[0].get():
-        bknd.randomize_all(bknd.gen_folder, bknd.enemies_to_replace, bknd.enemies_list)
-        bknd.randomize_all(bknd.gen_folder, bknd.enemies_drop_to_replace, bknd.enemies_drop_list, tag = "#drop")
-
-    if var_left[1].get():
-        bknd.randomize_all(bknd.gen_folder, bknd.fruits_to_replace, bknd.fruits_list)
-
-    if var_left[2].get():
-        bknd.randomize_all_file_name(bknd.music_folder)
-
-    messagebox.showinfo(title="Randomizing Done", message="You can now pack the randomized pikmin 3")
-
-
-def pack():
-    bknd.compress_genfile(bknd.gen_folder)
-    messagebox.showinfo(title="Packing Done", message="You can now play Pikmin 3 randomized")
-
-
-def darklight_mode(background_list, widget_list):
-    global current_mode
-
-    #check what the current mode is and change it
-    if current_mode == "dark":
-        color = bknd.light_mode
-        text = "🌙"
-        current_mode = "light"
-    else:
-        color = bknd.dark_mode
-        text = "🌤"
-        current_mode = "dark"
-
-    #edit every background element
-    for i in range(len(background_list)):
-        #look if object not a list
-        if not isinstance(background_list[i], list):
-            #look if the element have text
-            try:
-                background_list[i].configure(bg=color["background"], fg=color["text"])
-            except TclError:
-                background_list[i].configure(bg=color["background"])
+class RandoCheckbox:
+    def __init__(self, root, text, font, command=None):
+        self.root = root
+        self.text = text
+        self.font = font
+        if command is not None:
+            self.command = command
         else:
-            #edit 2d list
-            for j in range(len(background_list[i])):
-                #look if the element have text
-                try:
-                    background_list[i][j].configure(bg=color["background"], fg=color["text"])
-                except TclError:
-                    background_list[i][j].configure(bg=color["background"])
-
-    # edit every widget element
-    for i in range(len(widget_list)):
-        # look if object not a list
-        if not isinstance(widget_list[i], list):
-            # look if the element have text
-            try:
-                widget_list[i].configure(bg=color["widget"], fg=color["text"])
-            except TclError:
-                widget_list[i].configure(bg=color["widget"])
-        else:
-            # edit 2d list
-            for j in range(len(widget_list[i])):
-                # look if the element have text
-                try:
-                    widget_list[i][j].configure(bg=color["widget"], fg=color["text"])
-                except TclError:
-                    widget_list[i][j].configure(bg=color["widget"])
-
-    widget_list[0][2].configure(text=text)
+            self.command = lambda: None
+        self.var = StringVar(value="off")
+        self.checkbox = CTkCheckBox(self.root, text=self.text, font=self.font, command=self.command,
+                                             variable=self.var, onvalue="on", offvalue="off")
 
 
-def create_info_window():
-    global current_mode
-    if current_mode == "dark":
-        color = bknd.dark_mode
-    else:
-        color = bknd.light_mode
+    def pack(self):
+        self.checkbox.pack()
 
-    info = Toplevel()
-    info.title("Pikmin 3 Randomizer Info")
-    info.configure(bg=color["background"])
 
-    # finding the screen with and height
-    screen_width = info.winfo_screenwidth()
-    screen_height = info.winfo_screenheight()
+    def grid(self, row, column):
+        self.checkbox.grid(row=row, column=column, sticky="w", pady=(10,0))
 
-    # size of the window
-    sizex = 500
-    sizey = 320
 
-    # finding the middle of the screen
-    posx = screen_width // 2 - (sizex // 2)
-    posy = screen_height // 2 - (sizey // 2)
+    def get_value(self):
+        return self.var.get()
 
-    # place the window in the middle
-    info.geometry(f"{sizex}x{sizey}+{posx}+{posy}")
 
-    # make the window not resizable
-    info.resizable(False, False)
-
-#--------------------main window--------------------
-window = Tk()
+window = CTk()
 window.title("Pikmin 3 Randomizer")
-window.configure(bg=bknd.dark_mode["background"])
-background_element.append(window)
 
 #finding the screen with and height
 screen_width = window.winfo_screenwidth()
@@ -139,7 +38,7 @@ screen_height = window.winfo_screenheight()
 
 #size of the window
 sizex = 500
-sizey = 320
+sizey = 330
 
 #finding the middle of the screen
 posx = screen_width // 2 - (sizex // 2)
@@ -151,127 +50,86 @@ window.geometry(f"{sizex}x{sizey}+{posx}+{posy}")
 #make the window not resizable
 window.resizable(False, False)
 
-frm_option = Frame(window, bg=bknd.dark_mode["background"])
-frm_option.pack(fill="x")
-background_element.append(frm_option)
+#----- top element -----
+frm_top = CTkFrame(window, fg_color="transparent")  # transparent if you want background to show
+frm_top.pack(side="top", fill="x", padx=10, pady=(10, 0))
 
-#--------------------left side--------------------
+frm_top.grid_columnconfigure(0, weight=1)
+frm_top.grid_columnconfigure(1, weight=64)
+frm_top.grid_columnconfigure(2, weight=1)
+frm_top.grid_columnconfigure(3, weight=1)
 
-frm_left = Frame(frm_option, bg=bknd.dark_mode["background"])
-frm_left.pack(side=LEFT, anchor="n", pady=10, padx=10)
-background_element.append(frm_left)
+button_info = CTkButton(frm_top, text="ℹ", font=button_font, width=50, height=50)
+button_info.grid(row=0, column=0)
 
-text_left = [
-        "Randomize enemies",
-        "Randomize fruits",
-        "Randomize musics",
-        "Randomize onions",
-        "Open progression",
-        "True Spice"
-        ]
+button_folder = CTkButton(frm_top, text="📁", font=button_font, width=50, height=50)
+button_folder.grid(row=0, column=2)
 
-frame_left = [None, None, None, None, None, None]
-background_element.append(frame_left)
+button_option = CTkButton(frm_top, text="⛭", font=button_font, width=50, height=50)
+button_option.grid(row=0, column=3)
 
-checkbox_left = [None, None, None, None, None, None]
-background_element.append(checkbox_left)
+#----- param -----
+frm_param = CTkFrame(window, fg_color="transparent")  # transparent if you want background to show
+frm_param.pack(side="top", fill="x", padx=10, pady=(0, 10))
 
-var_left = [IntVar(), IntVar(), IntVar(), IntVar(), IntVar(), IntVar()]
+frm_param.grid_columnconfigure(0, weight=1)
+frm_param.grid_columnconfigure(1, weight=1)
 
-label_left = [None, None, None, None, None, None]
-background_element.append(label_left)
+#----- Left Side -----
+cbx_enemies = RandoCheckbox(frm_param, "Randomize enemies", default_font)
+cbx_enemies.grid(1, 0)
 
-for i in range(len(text_left)):
-    frame_left[i] = Frame(frm_left, pady=5, padx=5, bg=bknd.dark_mode["background"])
-    frame_left[i].pack(anchor="w")
+cbx_fruits = RandoCheckbox(frm_param, "Randomize fruits", default_font)
+cbx_fruits.grid(2, 0)
 
-    checkbox_left[i] = Checkbutton(frame_left[i], variable=var_left[i], onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
-    checkbox_left[i].pack(side=LEFT)
+cbx_musics = RandoCheckbox(frm_param, "Randomize musics", default_font)
+cbx_musics.grid(3, 0)
 
-    label_left[i] = Label(frame_left[i], text=text_left[i], font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-    label_left[i].pack()
+cbx_spice = RandoCheckbox(frm_param, "True Spice Mode", default_font)
+cbx_spice.grid(4, 0)
 
-#--------------------right side--------------------
+cbx_chaos = RandoCheckbox(frm_param, "Chaos Randomizer", default_font)
+cbx_chaos.grid(5, 0)
 
-frm_right = Frame(frm_option, bg=bknd.dark_mode["background"])
-frm_right.pack(side=RIGHT, anchor="n", pady=10, padx=10)
-background_element.append(frm_right)
+#----- Right Side -----
+cbx_nbgen = RandoCheckbox(frm_param, "Max Gen Num", default_font)
+cbx_nbgen.grid(1, 1)
 
-frame_right = [None, None, None, None, None]
-background_element.append(frame_right)
+ent_nbgen = CTkEntry(frm_param, font=default_font, width=60, justify="center")
+ent_nbgen.grid(row=1, column=1, sticky="e", pady=(10,0))
 
-button_right = [None, None, None]
-widget_element.append(button_right)
+cbx_open = RandoCheckbox(frm_param, "Open Progression", default_font)
+cbx_open.grid(2, 1)
 
-for i in range(len(frame_right)):
-    frame_right[i] = Frame(frm_right, pady=5, padx=5, bg=bknd.dark_mode["background"])
-    frame_right[i].pack(anchor="w", fill="x")
+cbx_iron = RandoCheckbox(frm_param, "Iron-min", default_font)
+cbx_iron.grid(3, 1)
 
-button_right[0] = Button(frame_right[0], text="ℹ", font=button_font, width=3, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command=create_info_window)
-button_right[0].pack(padx=(5,0), side=RIGHT)
+ent_iron = CTkEntry(frm_param, font=default_font, width=60, justify="center")
+ent_iron.grid(row=3, column=1, sticky="e", pady=(10,0))
 
-button_right[1] = Button(frame_right[0], text="📁", font=button_font, width=3, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command=bknd.open_mod_folder)
-button_right[1].pack(padx=(5,0), side=RIGHT)
+cbx_onion = RandoCheckbox(frm_param, "Randomize onions", default_font)
+cbx_onion.grid(4, 1)
 
-button_right[2] = Button(frame_right[0], text="🌤", font=button_font, width=3, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command=lambda: darklight_mode(background_element, widget_element))
-button_right[2].pack(padx=(5,0), side=RIGHT)
+lbl_start_onion = CTkLabel(frm_param, text="First onion", font=default_font)
+lbl_start_onion.grid(row=5, column=1, sticky="w", pady=(10,0))
 
-var_chaos = IntVar()
+onion_options = ["Random", "Red", "Rock", "Yellow", "Winged", "Blue"]
 
-ckbx_chaos = Checkbutton(frame_right[1], variable=var_chaos, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
-ckbx_chaos.pack(side=LEFT)
-background_element.append(ckbx_chaos)
+drp_start_onion = CTkOptionMenu(frm_param, font=default_font, values=onion_options, width=120)
+drp_start_onion.set("Random")  # Default text
+drp_start_onion.grid(row=5, column=1, sticky="e", pady=(10,0))
 
-lbl_chaos = Label(frame_right[1], text="Chaos Randomizer", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-lbl_chaos.pack(side=LEFT, padx=(5,0))
-background_element.append(lbl_chaos)
+#----- bottom element -----
+frm_bottom = CTkFrame(window, fg_color="transparent")  # transparent if you want background to show
+frm_bottom.pack(side="top", fill="x", padx=10, pady=(10, 0))
 
-var_iron = IntVar()
+frm_bottom.grid_columnconfigure(1, weight=1)
+frm_bottom.grid_columnconfigure(2, weight=1)
 
-ckbx_iron = Checkbutton(frame_right[2], variable=var_iron, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
-ckbx_iron.pack(side=LEFT)
-background_element.append(ckbx_iron)
+button_folder = CTkButton(frm_bottom, text="Randomize", font=button_font, width=220, height=50)
+button_folder.grid(row=0, column=1)
 
-lbl_iron = Label(frame_right[2], text="Iron-min Challenge", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-lbl_iron.pack(padx=5, side=LEFT)
-background_element.append(lbl_iron)
+button_option = CTkButton(frm_bottom, text="Pack", font=button_font, width=220, height=50)
+button_option.grid(row=0, column=2)
 
-ent_iron = Entry(frame_right[2], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
-ent_iron.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
-widget_element.append(ent_iron)
-
-var_gennum = IntVar()
-
-ckbx_gennum = Checkbutton(frame_right[3], variable=var_gennum, onvalue=1, offvalue=0, bg=bknd.dark_mode["background"])
-ckbx_gennum.pack(side=LEFT)
-background_element.append(ckbx_gennum)
-
-lbl_gennum = Label(frame_right[3], text="Max gen num", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-lbl_gennum.pack(side=LEFT, padx=(5,0))
-background_element.append(lbl_gennum)
-
-ent_gennum = Entry(frame_right[3], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
-ent_gennum.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
-widget_element.append(ent_gennum)
-
-lbl_stonion = Label(frame_right[4], text="First onion", font=normal_font, bg=bknd.dark_mode["background"], fg=bknd.dark_mode["text"])
-lbl_stonion.pack(side=LEFT, padx=(5,0))
-background_element.append(lbl_stonion)
-
-ent_stonion = Entry(frame_right[4], font=normal_font, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"])
-ent_stonion.pack(padx=(5,0), side=RIGHT, fill="x", expand=True)
-widget_element.append(ent_stonion)
-
-#--------------------bottom button--------------------
-
-frm_bottom = Frame(window, bg=bknd.dark_mode["background"])
-frm_bottom.pack(padx=10)
-background_element.append(frm_bottom)
-
-btn_randomize = Button(frm_bottom, text="RANDOMIZE", font=button_font, width=12, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command=randomize)
-btn_randomize.pack(side=LEFT, padx=10)
-widget_element.append(btn_randomize)
-
-btn_pack = Button(frm_bottom, text="PACK", font=button_font, width=12, bg=bknd.dark_mode["widget"], fg=bknd.dark_mode["text"], command= lambda:pack())
-btn_pack.pack(side=RIGHT, padx=10)
-widget_element.append(btn_pack)
+window.mainloop()
