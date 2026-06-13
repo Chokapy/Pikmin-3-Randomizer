@@ -17,11 +17,22 @@ generator_folder = "generator"
 
 ##-----path/file handler-----##
 def get_list(path):
+    """
+    get_list allow to get json file
+    :param path: path to a JSON file containing randomizer pool
+    :return: the data of the JSON file
+    """
     with open(path, 'r') as f:
         return json.load(f)
 
 
 def get_folder(root_dir, target_folder):
+    """
+    get_folder allow to find a specific without knowing the path
+    :param root_dir: root path to look in
+    :param target_folder: folder to find
+    :return: the folder path
+    """
     for dirpath, dirnames, filenames in os.walk(root_dir):
         if target_folder in dirnames:
             return os.path.join(dirpath, target_folder)
@@ -30,6 +41,9 @@ def get_folder(root_dir, target_folder):
 
 ##-----archive handler-----##
 def unpack_all():
+    """
+    unpack_all unpack all .szs files to .sarc files
+    """
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
 
@@ -53,6 +67,9 @@ def unpack_all():
 
 
 def pack_all():
+    """
+    pack_all pack all .sarc files to .szs files
+    """
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
 
@@ -80,6 +97,12 @@ def pack_all():
 
 ##-----random function-----##
 def randomize_file(sarc_path, search_pool, random_pool):
+    """
+    randomize_file randomize a .sarc file
+    :param sarc_path: .sarc file path
+    :param search_pool: objet that will be randomized
+    :param random_pool: objet that will be randomized into
+    """
     with open(sarc_path, "rb") as f:
         archive = sarc.read_file_and_make_sarc(f)
 
@@ -109,6 +132,10 @@ def randomize_file(sarc_path, search_pool, random_pool):
         writer.write(f)
 
 def randomize_all(data_file_path):
+    """
+    randomize_all randomize all .sarc files
+    :param data_file_path: the pool data
+    """
     data = get_list(data_file_path)
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
@@ -128,5 +155,6 @@ unpack_all()
 
 randomize_all("data/randomizerData/Enemies.json")
 randomize_all("data/randomizerData/Fruits.json")
+randomize_all("data/randomizerData/Plants.json")
 
 pack_all()

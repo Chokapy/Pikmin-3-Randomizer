@@ -11,11 +11,7 @@
     "GoldCherry",
     "GoldIchigo",
     "Kiwi",
-    "KiwiA",
-    "KiwiB",
     "KiwiGold",
-    "KiwiGoldA",
-    "KiwiGoldB",
     "Lemon",
     "Lime",
     "Loquat",
@@ -31,15 +27,8 @@
     "Plum",
     "Raspberry",
     "StarFruit",
-    "StarFruitA",
     "Strawberry",
-    "WaterMelon",
-    "WaterMelonA",
-    "WaterMelonB",
-    "WaterMelonC",
-    "WaterMelonD",
-    "WaterMelonE",
-    "WaterMelonF"
+    "WaterMelon"
   ],
     "random_pool" : [
     "Apple",
@@ -54,11 +43,7 @@
     "GoldIchigo",
     "Grape",
     "Kiwi",
-    "KiwiA",
-    "KiwiB",
     "KiwiGold",
-    "KiwiGoldA",
-    "KiwiGoldB",
     "Lemon",
     "Lime",
     "Loquat",
@@ -76,14 +61,7 @@
     "Plum",
     "Raspberry",
     "StarFruit",
-    "StarFruitA",
     "Strawberry",
-    "WaterMelon",
-    "WaterMelonA",
-    "WaterMelonB",
-    "WaterMelonC",
-    "WaterMelonD",
-    "WaterMelonE",
-    "WaterMelonF"
+    "WaterMelon"
   ]
 }
