@@ -1,6 +1,6 @@
 import struct
 
-def yaz0_decompress(data: bytes) -> bytes:
+def decompress(data: bytes) -> bytes:
     if not data.startswith(b"Yaz0"):
         raise ValueError("Not Yaz0-compressed")
     uncompressed_size = int.from_bytes(data[4:8], "big")
@@ -25,7 +25,7 @@ def yaz0_decompress(data: bytes) -> bytes:
     return bytes(dst)
 
 
-def yaz0_compress(data: bytes) -> bytes:
+def compress(data: bytes) -> bytes:
     out = bytearray()
     out.extend(b"Yaz0")
     out.extend(struct.pack(">I", len(data)))
@@ -40,26 +40,3 @@ def yaz0_compress(data: bytes) -> bytes:
     code_byte <<= (8 - valid_bits)
     out.append(code_byte); out.extend(chunk)
     return bytes(out)
-
-
-"""
-data = yaz0_decompress(open("single.szs", "rb").read())
-
-# save SARC
-with open("MapUnit.sarc", "wb") as f:
-    f.write(data)
-
-# then parse SARC (requires a SARC parser)
-
-
-# Take your raw file (e.g. decompressed SARC, JSON, etc.)
-with open("MapUnit.sarc", "rb") as f:
-    raw = f.read()
-
-compressed = yaz0_compress(raw)
-
-with open("example.szs", "wb") as f:
-    f.write(compressed)
-"""
-
-
