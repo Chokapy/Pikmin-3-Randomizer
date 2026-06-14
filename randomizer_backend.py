@@ -8,6 +8,7 @@ Version : 2.0
 import json
 import os
 import random
+import re
 
 import yaz0
 import sarc
@@ -151,14 +152,57 @@ def randomize_all_objects(data_file_path):
                 randomize_objects(file_path, data["search_pool"], data["random_pool"])
 
 
-def randomize_params(sarc_path, param_name, values):
-    #TODO being able the randomize a param
-    pass
+def randomize_params(sarc_path, object, param_name, values, chance):
+    object_found = False
+    with open(sarc_path, "rb") as f:
+        archive = sarc.read_file_and_make_sarc(f)
+
+    writer = sarc.SARCWriter(be=False)
+
+    count = 0
+
+    for file_name in archive.list_files():
+        data = bytes(archive.get_file_data(file_name)).splitlines(True)
+
+        for i, line in enumerate(data):
+            if f"\"{object}\"".encode() in line:
+                object_found = True
+
+            if object_found:
+                if f"\"{param_name}\"".encode() in line:
+                    if i + 1 < len(data):
+                        random_chance = random.uniform(0, 1)
+                        if random_chance > chance:
+                            data[i + 1] = re.sub(
+                                rb"-?\d+(?:\.\d+)?",
+                                lambda m: str(random.choice(values)).encode(),
+                                data[i + 1],
+                                count=1
+                            )
+
+                        count += 1
+
+                    object_found = False
+
+        writer.add_file(file_name, b"".join(data))
+
+    print(f"Replaced {count} occurrences")
+
+    with open(sarc_path, "wb") as f:
+        writer.write(f)
 
 
 def randomize_all_params(data_file_path):
-    #TODO being able the randomize all params
-    pass
+    data = get_list(data_file_path)
+    for dirpath, dirnames, filenames in os.walk(generator_path):
+        for filename in filenames:
+
+            if filename.endswith(".sarc"):
+                file_path = os.path.join(dirpath, filename)
+
+                print(f"Randomizing : {file_path}")
+
+                randomize_params(file_path, data["object"], data["param"], data["values"])
 
 
 ##-----shuffle function-----##
@@ -261,6 +305,9 @@ randomize_all_objects("data/randomizerData/Enemies.json")
 
 print("#-----Fruits-----#")
 randomize_all_objects("data/randomizerData/Fruits.json")
+
+print("#-----Misc-----#")
+randomize_all_params("data/randomizerData/Pongashi.json")
 
 pack_all()
 
