@@ -210,12 +210,6 @@ def randomize_all_params(data_file_path, chance = 1.0):
 ##-----shuffle function-----##
 #shufle mean that each element appear once
 def shuffle_objects(sarc_path, search_pool, random_pool):
-    """
-    randomize_file randomize a .sarc file
-    :param sarc_path: .sarc file path
-    :param search_pool: objet that will be randomized
-    :param random_pool: objet that will be randomized into
-    """
     with open(sarc_path, "rb") as f:
         archive = sarc.read_file_and_make_sarc(f)
 
@@ -229,11 +223,15 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
         for i, line in enumerate(data):
             for search in search_pool:
                 if f"\"{search}\"".encode() in line:
+                    replace = random.choice(random_pool)
                     line = line.replace(
                         f"\"{search}\"".encode(),
-                        f"\"{random.choice(random_pool)}\"".encode()
+                        f"\"{replace}\"".encode()
                     )
+                    print(i, line)
                     count += 1
+                    random_pool.remove(replace)
+                    break
 
             data[i] = line
 
@@ -244,6 +242,8 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
     with open(sarc_path, "wb") as f:
         writer.write(f)
 
+    return random_pool
+
 
 def shuffle_all_objects(data_file_path):
     """
@@ -251,6 +251,7 @@ def shuffle_all_objects(data_file_path):
     :param data_file_path: the pool data
     """
     data = get_list(data_file_path)
+    random_list = data["pool"].copy()
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
 
@@ -259,7 +260,9 @@ def shuffle_all_objects(data_file_path):
 
                 print(f"Randomizing : {file_path}")
 
-                randomize_objects(file_path, data["search_pool"], data["random_pool"])
+                print(random_list)
+                new_pool = shuffle_objects(file_path, data["pool"], random_list)
+                random_list = new_pool
 
 
 def shuffle_params(sarc_path, param_name, values):
@@ -303,8 +306,8 @@ b = f"{generator_path}".encode()
 unpack_all()
 
 print("#-----Misc-----#")
-randomize_all_objects("data/randomizerData/Pongashi.json", 0.2)
-randomize_all_params("data/randomizerData/Pongashi.json", 0.8)
+randomize_all_params("data/randomizerData/Pongashi.json", 0.9)
+shuffle_all_objects("data/randomizerData/Upgrades.json")
 
 print("#-----Enemies-----#")
 randomize_all_objects("data/randomizerData/Enemies.json")
