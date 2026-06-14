@@ -20,7 +20,7 @@ music_folder = "stream"
 ##-----path/file handler-----##
 def get_list(path):
     """
-    get_list allow to get json file
+    get_list allow to get JSON file
     :param path: path to a JSON file containing randomizer pool
     :return: the data of the JSON file
     """
@@ -101,10 +101,11 @@ def pack_all():
 #random mean that any possible combination can be made
 def randomize_objects(sarc_path, search_pool, random_pool, chance):
     """
-    randomize_file randomize a .sarc file
+    randomize_objects randomize a .sarc file
     :param sarc_path: .sarc file path
     :param search_pool: objet that will be randomized
     :param random_pool: objet that will be randomized into
+    :param chance: chance of randomizing object
     """
     with open(sarc_path, "rb") as f:
         archive = sarc.read_file_and_make_sarc(f)
@@ -139,8 +140,9 @@ def randomize_objects(sarc_path, search_pool, random_pool, chance):
 
 def randomize_all_objects(data_file_path, chance = 1.0):
     """
-    randomize_all randomize all .sarc files
+    randomize_all_objects randomize all .sarc files
     :param data_file_path: the pool data
+    :param chance: chance of randomizing objects
     """
     data = get_list(data_file_path)
     for dirpath, dirnames, filenames in os.walk(generator_path):
@@ -155,6 +157,14 @@ def randomize_all_objects(data_file_path, chance = 1.0):
 
 
 def randomize_params(sarc_path, object, param_name, values, chance):
+    """
+    randomize_params randomize a .sarc file
+    :param sarc_path: .sarc file path
+    :param object: the object which param will be randomizer
+    :param param_name: the param to randomize
+    :param values: possible values
+    :param chance: chance of randomizing objects
+    """
     object_found = False
     with open(sarc_path, "rb") as f:
         archive = sarc.read_file_and_make_sarc(f)
@@ -210,6 +220,13 @@ def randomize_all_params(data_file_path, chance = 1.0):
 ##-----shuffle function-----##
 #shufle mean that each element appear once
 def shuffle_objects(sarc_path, search_pool, random_pool):
+    """
+    shuffle_objects shuffle a .sarc file
+    :param sarc_path: .sarc file path
+    :param search_pool: objet that will be shuffled
+    :param random_pool: objet that isn't shuffled yet
+    :return: the objects left
+    """
     with open(sarc_path, "rb") as f:
         archive = sarc.read_file_and_make_sarc(f)
 
@@ -228,7 +245,6 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
                         f"\"{search}\"".encode(),
                         f"\"{replace}\"".encode()
                     )
-                    print(i, line)
                     count += 1
                     random_pool.remove(replace)
                     break
@@ -247,7 +263,7 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
 
 def shuffle_all_objects(data_file_path):
     """
-    randomize_all randomize all .sarc files
+    shuffle_all_objects shuffle all .sarc files
     :param data_file_path: the pool data
     """
     data = get_list(data_file_path)
@@ -260,7 +276,6 @@ def shuffle_all_objects(data_file_path):
 
                 print(f"Randomizing : {file_path}")
 
-                print(random_list)
                 new_pool = shuffle_objects(file_path, data["pool"], random_list)
                 random_list = new_pool
 
