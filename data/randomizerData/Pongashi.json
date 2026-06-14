@@ -1,5 +1,13 @@
 {
   "object" : "Pongashi",
   "param" : "mColor",
-  "values" : [1, 3, 4, 5, 7]
+  "values" : [1, 3, 4, 5, 7],
+  "search_pool" : [
+    "Pelplant1",
+    "Pelplant5",
+    "Pelplant10"
+  ],
+  "random_pool" : [
+    "Pongashi"
+  ]
 }

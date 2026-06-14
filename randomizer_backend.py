@@ -99,7 +99,7 @@ def pack_all():
 
 ##-----random function-----##
 #random mean that any possible combination can be made
-def randomize_objects(sarc_path, search_pool, random_pool):
+def randomize_objects(sarc_path, search_pool, random_pool, chance):
     """
     randomize_file randomize a .sarc file
     :param sarc_path: .sarc file path
@@ -119,11 +119,13 @@ def randomize_objects(sarc_path, search_pool, random_pool):
         for i, line in enumerate(data):
             for search in search_pool:
                 if f"\"{search}\"".encode() in line:
-                    line = line.replace(
-                        f"\"{search}\"".encode(),
-                        f"\"{random.choice(random_pool)}\"".encode()
-                    )
-                    count += 1
+                    random_chance = random.uniform(0, 1)
+                    if random_chance <= chance:
+                        line = line.replace(
+                            f"\"{search}\"".encode(),
+                            f"\"{random.choice(random_pool)}\"".encode()
+                        )
+                        count += 1
 
             data[i] = line
 
@@ -135,7 +137,7 @@ def randomize_objects(sarc_path, search_pool, random_pool):
         writer.write(f)
 
 
-def randomize_all_objects(data_file_path):
+def randomize_all_objects(data_file_path, chance = 1.0):
     """
     randomize_all randomize all .sarc files
     :param data_file_path: the pool data
@@ -149,7 +151,7 @@ def randomize_all_objects(data_file_path):
 
                 print(f"Randomizing : {file_path}")
 
-                randomize_objects(file_path, data["search_pool"], data["random_pool"])
+                randomize_objects(file_path, data["search_pool"], data["random_pool"], chance)
 
 
 def randomize_params(sarc_path, object, param_name, values, chance):
@@ -172,15 +174,15 @@ def randomize_params(sarc_path, object, param_name, values, chance):
                 if f"\"{param_name}\"".encode() in line:
                     if i + 1 < len(data):
                         random_chance = random.uniform(0, 1)
-                        if random_chance > chance:
+                        if random_chance <= chance:
                             data[i + 1] = re.sub(
                                 rb"-?\d+(?:\.\d+)?",
                                 lambda m: str(random.choice(values)).encode(),
                                 data[i + 1],
                                 count=1
                             )
+                            count += 1
 
-                        count += 1
 
                     object_found = False
 
@@ -192,7 +194,7 @@ def randomize_params(sarc_path, object, param_name, values, chance):
         writer.write(f)
 
 
-def randomize_all_params(data_file_path):
+def randomize_all_params(data_file_path, chance = 1.0):
     data = get_list(data_file_path)
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
@@ -202,7 +204,7 @@ def randomize_all_params(data_file_path):
 
                 print(f"Randomizing : {file_path}")
 
-                randomize_params(file_path, data["object"], data["param"], data["values"])
+                randomize_params(file_path, data["object"], data["param"], data["values"], chance)
 
 
 ##-----shuffle function-----##
@@ -300,14 +302,15 @@ b = f"{generator_path}".encode()
 
 unpack_all()
 
+print("#-----Misc-----#")
+randomize_all_objects("data/randomizerData/Pongashi.json", 0.2)
+randomize_all_params("data/randomizerData/Pongashi.json", 0.8)
+
 print("#-----Enemies-----#")
 randomize_all_objects("data/randomizerData/Enemies.json")
 
 print("#-----Fruits-----#")
 randomize_all_objects("data/randomizerData/Fruits.json")
-
-print("#-----Misc-----#")
-randomize_all_params("data/randomizerData/Pongashi.json")
 
 pack_all()
 

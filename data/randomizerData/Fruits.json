@@ -28,10 +28,7 @@
     "Raspberry",
     "StarFruit",
     "Strawberry",
-    "WaterMelon",
-    "BDama",
-    "ChanceDama",
-    "WinDama"
+    "WaterMelon"
   ],
     "random_pool" : [
     "Apple",
@@ -65,9 +62,6 @@
     "Raspberry",
     "StarFruit",
     "Strawberry",
-    "WaterMelon",
-    "BDama",
-    "ChanceDama",
-    "WinDama"
+    "WaterMelon"
   ]
 }
