@@ -138,13 +138,12 @@ def randomize_objects(sarc_path, search_pool, random_pool, chance):
         writer.write(f)
 
 
-def randomize_all_objects(data_file_path, chance = 1.0):
+def randomize_all_objects(data, chance = 1.0):
     """
     randomize_all_objects randomize all .sarc files
-    :param data_file_path: the pool data
+    :param data: the pool data
     :param chance: chance of randomizing objects
     """
-    data = get_list(data_file_path)
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
 
@@ -204,8 +203,12 @@ def randomize_params(sarc_path, object, param_name, values, chance):
         writer.write(f)
 
 
-def randomize_all_params(data_file_path, chance = 1.0):
-    data = get_list(data_file_path)
+def randomize_all_params(data, chance = 1.0):
+    """
+    randomize_all_params randomize all .sarc files
+    :param data: the pool data
+    :param chance: chance of randomizing objects
+    """
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
 
@@ -247,6 +250,7 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
                     )
                     count += 1
                     random_pool.remove(replace)
+                    print(line, random_pool)
                     break
 
             data[i] = line
@@ -261,12 +265,11 @@ def shuffle_objects(sarc_path, search_pool, random_pool):
     return random_pool
 
 
-def shuffle_all_objects(data_file_path):
+def shuffle_all_objects(data):
     """
     shuffle_all_objects shuffle all .sarc files
-    :param data_file_path: the pool data
+    :param data: the pool data
     """
-    data = get_list(data_file_path)
     random_list = data["pool"].copy()
     for dirpath, dirnames, filenames in os.walk(generator_path):
         for filename in filenames:
@@ -321,14 +324,18 @@ b = f"{generator_path}".encode()
 unpack_all()
 
 print("#-----Misc-----#")
-randomize_all_params("data/randomizerData/Pongashi.json", 0.9)
-shuffle_all_objects("data/randomizerData/Upgrades.json")
+data = get_list("data/randomizerData/Pongashi.json")
+randomize_all_params(data, 0.9)
+data = get_list("data/randomizerData/Upgrades.json")
+shuffle_all_objects(data)
 
 print("#-----Enemies-----#")
-randomize_all_objects("data/randomizerData/Enemies.json")
+data = get_list("data/randomizerData/Enemies.json")
+randomize_all_objects(data)
 
 print("#-----Fruits-----#")
-randomize_all_objects("data/randomizerData/Fruits.json")
+data = get_list("data/randomizerData/Fruits.json")
+randomize_all_objects(data)
 
 pack_all()
 
