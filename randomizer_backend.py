@@ -288,10 +288,28 @@ def shuffle_params(sarc_path, param_name, values):
     pass
 
 
-def shuffle_all_params(data_file_path):
-    #TODO being able the randomize all params
-    pass
+def shuffle_all_params(data):
+    """
+    shuffle_all_objects shuffle all .sarc files
+    :param data: the pool data
+    """
+    random_list = data["values"].copy()
+    random.shuffle(random_list)
+    new_data = []
+    for i in range(len(data["values"])):
+        new_data.insert(i, [data["values"][i], random_list[i]])
 
+    print(new_data)
+    """
+    for dirpath, dirnames, filenames in os.walk(generator_path):
+        for filename in filenames:
+
+            if filename.endswith(".sarc"):
+                file_path = os.path.join(dirpath, filename)
+                
+
+                print(f"Randomizing : {file_path}")
+    """
 
 def shuffle_files(dir):
     files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
@@ -317,7 +335,7 @@ def shuffle_files(dir):
 
 
 ##-----program-----##
-
+"""
 generator_path = get_folder(base_path, generator_folder)
 b = f"{generator_path}".encode()
 
@@ -340,4 +358,7 @@ randomize_all_objects(data)
 pack_all()
 
 music_path = get_folder(base_path, music_folder)
-shuffle_files(music_path)
+shuffle_files(music_path)"""
+
+data = get_list("data/randomizerData/no-limit/Onyon.json")
+shuffle_all_params(data)
